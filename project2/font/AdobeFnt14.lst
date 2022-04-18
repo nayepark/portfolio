@@ -1,0 +1,523 @@
+%!Adobe-FontList 1.14
+%Locale:0x412
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CID
+FontName:NotoSansKR-Black
+FamilyName:Noto Sans KR
+StyleName:Black
+FullName:Noto Sans KR Black
+MenuName:Noto Sans KR Black
+StyleBits:0
+FamilyNameNative:
+StyleNameNative:Black
+FullNameNative:
+WritingScript:Korean
+OutlineFileName:E:\pro2_ux\Font\Noto_Sans_KR\NotoSansKR-Black.otf
+DataFormat:sfntData
+isCFF:yes
+FileLength:2527996
+FileModTime:1517756400
+WeightClass:900
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CID
+FontName:NotoSansKR-Bold
+FamilyName:Noto Sans KR
+StyleName:Bold
+FullName:Noto Sans KR Bold
+MenuName:Noto Sans KR Bold
+StyleBits:0
+FamilyNameNative:
+StyleNameNative:Bold
+FullNameNative:
+WritingScript:Korean
+OutlineFileName:E:\pro2_ux\Font\Noto_Sans_KR\NotoSansKR-Bold.otf
+DataFormat:sfntData
+isCFF:yes
+FileLength:2334176
+FileModTime:1517756400
+WeightClass:700
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CID
+FontName:NotoSansKR-Light
+FamilyName:Noto Sans KR
+StyleName:Light
+FullName:Noto Sans KR Light
+MenuName:Noto Sans KR Light
+StyleBits:0
+FamilyNameNative:
+StyleNameNative:Light
+FullNameNative:
+WritingScript:Korean
+OutlineFileName:E:\pro2_ux\Font\Noto_Sans_KR\NotoSansKR-Light.otf
+DataFormat:sfntData
+isCFF:yes
+FileLength:2245744
+FileModTime:1517756400
+WeightClass:300
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CID
+FontName:NotoSansKR-Medium
+FamilyName:Noto Sans KR
+StyleName:Medium
+FullName:Noto Sans KR Medium
+MenuName:Noto Sans KR Medium
+StyleBits:0
+FamilyNameNative:
+StyleNameNative:Medium
+FullNameNative:
+WritingScript:Korean
+OutlineFileName:E:\pro2_ux\Font\Noto_Sans_KR\NotoSansKR-Medium.otf
+DataFormat:sfntData
+isCFF:yes
+FileLength:2230732
+FileModTime:1517756400
+WeightClass:500
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CID
+FontName:NotoSansKR-Regular
+FamilyName:Noto Sans KR
+StyleName:Regular
+FullName:Noto Sans KR
+MenuName:Noto Sans KR Regular
+StyleBits:0
+FamilyNameNative:
+StyleNameNative:Regular
+FullNameNative:
+WritingScript:Korean
+OutlineFileName:E:\pro2_ux\Font\Noto_Sans_KR\NotoSansKR-Regular.otf
+DataFormat:sfntData
+isCFF:yes
+FileLength:2227620
+FileModTime:1517756400
+WeightClass:400
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CID
+FontName:NotoSansKR-Thin
+FamilyName:Noto Sans KR
+StyleName:Thin
+FullName:Noto Sans KR Thin
+MenuName:Noto Sans KR Thin
+StyleBits:0
+FamilyNameNative:
+StyleNameNative:Thin
+FullNameNative:
+WritingScript:Korean
+OutlineFileName:E:\pro2_ux\Font\Noto_Sans_KR\NotoSansKR-Thin.otf
+DataFormat:sfntData
+isCFF:yes
+FileLength:2265712
+FileModTime:1517756400
+WeightClass:250
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:E:\pro2_ux\Font\Noto_Sans_KR\OFL.txt
+FileModTime:1517756400
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:E:\pro2_ux\Font\Pacifico\OFL.txt
+FileModTime:1299596400
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Pacifico-Regular
+FamilyName:Pacifico
+StyleName:Regular
+FullName:Pacifico Regular
+MenuName:Pacifico
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:E:\pro2_ux\Font\Pacifico\Pacifico-Regular.ttf
+DataFormat:sfntData
+FileLength:315044
+FileModTime:1299596400
+WeightClass:400
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Barlow-Black
+FamilyName:Barlow
+StyleName:Black
+FullName:Barlow Black
+MenuName:Barlow Black
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:E:\pro2_ux\Font\Barlow\Barlow-Black.ttf
+DataFormat:sfntData
+FileLength:105412
+FileModTime:1508943600
+WeightClass:900
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Barlow-BlackItalic
+FamilyName:Barlow
+StyleName:Black Italic
+FullName:Barlow Black Italic
+MenuName:Barlow Black
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:E:\pro2_ux\Font\Barlow\Barlow-BlackItalic.ttf
+DataFormat:sfntData
+FileLength:108748
+FileModTime:1508943600
+WeightClass:900
+WidthClass:5
+AngleClass:1
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Barlow-Bold
+FamilyName:Barlow
+StyleName:Bold
+FullName:Barlow Bold
+MenuName:Barlow
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:E:\pro2_ux\Font\Barlow\Barlow-Bold.ttf
+DataFormat:sfntData
+FileLength:102468
+FileModTime:1508943600
+WeightClass:700
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Barlow-BoldItalic
+FamilyName:Barlow
+StyleName:Bold Italic
+FullName:Barlow Bold Italic
+MenuName:Barlow
+StyleBits:3
+WritingScript:Roman
+OutlineFileName:E:\pro2_ux\Font\Barlow\Barlow-BoldItalic.ttf
+DataFormat:sfntData
+FileLength:106064
+FileModTime:1508943600
+WeightClass:700
+WidthClass:5
+AngleClass:1
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Barlow-ExtraBold
+FamilyName:Barlow
+StyleName:ExtraBold
+FullName:Barlow ExtraBold
+MenuName:Barlow ExtraBold
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:E:\pro2_ux\Font\Barlow\Barlow-ExtraBold.ttf
+DataFormat:sfntData
+FileLength:104376
+FileModTime:1508943600
+WeightClass:800
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Barlow-ExtraBoldItalic
+FamilyName:Barlow
+StyleName:ExtraBold Italic
+FullName:Barlow ExtraBold Italic
+MenuName:Barlow ExtraBold
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:E:\pro2_ux\Font\Barlow\Barlow-ExtraBoldItalic.ttf
+DataFormat:sfntData
+FileLength:107144
+FileModTime:1508943600
+WeightClass:800
+WidthClass:5
+AngleClass:1
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Barlow-ExtraLight
+FamilyName:Barlow
+StyleName:ExtraLight
+FullName:Barlow ExtraLight
+MenuName:Barlow ExtraLight
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:E:\pro2_ux\Font\Barlow\Barlow-ExtraLight.ttf
+DataFormat:sfntData
+FileLength:96608
+FileModTime:1508943600
+WeightClass:275
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Barlow-ExtraLightItalic
+FamilyName:Barlow
+StyleName:ExtraLight Italic
+FullName:Barlow ExtraLight Italic
+MenuName:Barlow ExtraLight
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:E:\pro2_ux\Font\Barlow\Barlow-ExtraLightItalic.ttf
+DataFormat:sfntData
+FileLength:102044
+FileModTime:1508943600
+WeightClass:275
+WidthClass:5
+AngleClass:1
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Barlow-Italic
+FamilyName:Barlow
+StyleName:Italic
+FullName:Barlow Italic
+MenuName:Barlow
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:E:\pro2_ux\Font\Barlow\Barlow-Italic.ttf
+DataFormat:sfntData
+FileLength:103780
+FileModTime:1508943600
+WeightClass:400
+WidthClass:5
+AngleClass:1
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Barlow-Light
+FamilyName:Barlow
+StyleName:Light
+FullName:Barlow Light
+MenuName:Barlow Light
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:E:\pro2_ux\Font\Barlow\Barlow-Light.ttf
+DataFormat:sfntData
+FileLength:97464
+FileModTime:1508943600
+WeightClass:300
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Barlow-LightItalic
+FamilyName:Barlow
+StyleName:Light Italic
+FullName:Barlow Light Italic
+MenuName:Barlow Light
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:E:\pro2_ux\Font\Barlow\Barlow-LightItalic.ttf
+DataFormat:sfntData
+FileLength:103064
+FileModTime:1508943600
+WeightClass:300
+WidthClass:5
+AngleClass:1
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Barlow-Medium
+FamilyName:Barlow
+StyleName:Medium
+FullName:Barlow Medium
+MenuName:Barlow Medium
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:E:\pro2_ux\Font\Barlow\Barlow-Medium.ttf
+DataFormat:sfntData
+FileLength:97776
+FileModTime:1508943600
+WeightClass:500
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Barlow-MediumItalic
+FamilyName:Barlow
+StyleName:Medium Italic
+FullName:Barlow Medium Italic
+MenuName:Barlow Medium
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:E:\pro2_ux\Font\Barlow\Barlow-MediumItalic.ttf
+DataFormat:sfntData
+FileLength:103376
+FileModTime:1508943600
+WeightClass:500
+WidthClass:5
+AngleClass:1
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Barlow-Regular
+FamilyName:Barlow
+StyleName:Regular
+FullName:Barlow Regular
+MenuName:Barlow
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:E:\pro2_ux\Font\Barlow\Barlow-Regular.ttf
+DataFormat:sfntData
+FileLength:98340
+FileModTime:1508943600
+WeightClass:400
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Barlow-SemiBold
+FamilyName:Barlow
+StyleName:SemiBold
+FullName:Barlow SemiBold
+MenuName:Barlow SemiBold
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:E:\pro2_ux\Font\Barlow\Barlow-SemiBold.ttf
+DataFormat:sfntData
+FileLength:102548
+FileModTime:1508943600
+WeightClass:600
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Barlow-SemiBoldItalic
+FamilyName:Barlow
+StyleName:SemiBold Italic
+FullName:Barlow SemiBold Italic
+MenuName:Barlow SemiBold
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:E:\pro2_ux\Font\Barlow\Barlow-SemiBoldItalic.ttf
+DataFormat:sfntData
+FileLength:105904
+FileModTime:1508943600
+WeightClass:600
+WidthClass:5
+AngleClass:1
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Barlow-Thin
+FamilyName:Barlow
+StyleName:Thin
+FullName:Barlow Thin
+MenuName:Barlow Thin
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:E:\pro2_ux\Font\Barlow\Barlow-Thin.ttf
+DataFormat:sfntData
+FileLength:95844
+FileModTime:1508943600
+WeightClass:250
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Barlow-ThinItalic
+FamilyName:Barlow
+StyleName:Thin Italic
+FullName:Barlow Thin Italic
+MenuName:Barlow Thin
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:E:\pro2_ux\Font\Barlow\Barlow-ThinItalic.ttf
+DataFormat:sfntData
+FileLength:101352
+FileModTime:1508943600
+WeightClass:250
+WidthClass:5
+AngleClass:1
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:E:\pro2_ux\Font\Barlow\OFL.txt
+FileModTime:1508943600
+%EndFont
+

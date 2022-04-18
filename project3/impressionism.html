@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>IM.</title>
+		<meta name="description" content="A set of ideas of animating images and other elements while smooth scrolling a page." />
+		<meta name="keywords" content="smooth scrolling, animation, scroll, website, images, web development, javascript" />
+		<meta name="author" content="Codrops" />
+		<!-- <link rel="shortcut icon" href="favicon.ico"> -->
+		<link rel="stylesheet" href="https://use.typekit.net/dec4mzz.css">
+		<link rel="stylesheet" type="text/css" href="SmoothScrollingImageEffects/css/base.css" />
+		<link rel="stylesheet" href="template.css">
+		<link rel="stylesheet" href="impressionism.css">
+
+		    <!-- wow -->
+		<link rel="stylesheet" href="wow/css/libs/animate.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+
+		<link rel="shortcut icon" href="img/favicon.ico">
+
+		<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+		<!-- <script src="template.js"></script> -->
+		<script src="impressionism.js"></script>
+
+
+		<script src="wow/dist/wow.min.js"></script>
+		<script src="wow/dist/wow.js"></script>
+		
+		<!-- <script>document.documentElement.className="js";var supportsCssVars=function(){var e,t=document.createElement("style");return t.innerHTML="root: { --tmp-var: bold; }",document.head.appendChild(t),e=!!(window.CSS&&window.CSS.supports&&window.CSS.supports("font-weight","var(--tmp-var)")),t.parentNode.removeChild(t),e};supportsCssVars()||alert("Please view this demo in a modern browser that supports CSS Variables.");</script> -->
+	</head>
+	<body class="demo-1 loading">
+		<header>
+			<div class="logo"><a href="intro.html">IM.</a></div>
+			<div class="nav-but-wrap">
+				<div class="menu-icon hover-target">
+					<span class="menu-icon__line menu-icon__line-left"></span>
+					<span class="menu-icon__line"></span>
+					<span class="menu-icon__line menu-icon__line-right"></span>
+				</div>					
+			</div>	
+		</header>
+		<section>
+			<div class="nav">
+				<div class="nav__content">
+					<div class="hero-center-section">
+						<div class="left-text">main</div>
+						<div class="container">
+							<div class="row justify-content-center">
+								<div class="col-md-8">
+									<div class="blb">
+										<div class="img-wrap">
+											<img src="img/드가_발레수업.jpg" alt="">
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="hero-center-section">
+						<div class="left-text">impressionism</div>
+						<div class="container">
+							<div class="row justify-content-center">
+								<div class="col-md-8">
+									<div class="blb">
+										<div class="img-wrap">
+											<img src="img/르누아르_책읽는소녀.jpg" alt="">
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="hero-center-section">
+						<div class="left-text">artist</div>
+						<div class="container">
+							<div class="row justify-content-center">
+								<div class="col-md-8">
+									<div class="blb">
+										<div class="img-wrap">
+											<img src="img/마네_스튜디오 보트에서 작업하는 모네.jpg" alt="">
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="hero-center-section">
+						<div class="left-text">art work</div>
+						<div class="container">
+							<div class="row justify-content-center">
+								<div class="col-md-8">
+									<div class="blb">
+										<div class="img-wrap">
+											<img src="img/모네_해돋이.jpg" alt="">
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="hero-center-section">
+						<div class="left-text">exhibition</div>
+						<div class="container">
+							<div class="row justify-content-center">
+								<div class="col-md-8">
+									<div class="blb">
+										<div class="img-wrap">
+											<img src="img/피사로_몽마르트대로밤풍경.jpg" alt="">
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="hero-center-section">
+						<div class="left-text">qna</div>
+						<div class="container">
+							<div class="row justify-content-center">
+								<div class="col-md-8">
+									<div class="blb">
+										<div class="img-wrap">
+											<img src="img/시슬레_빌뇌브_라_가렌느의_다리.jpg" alt="">
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+						
+						
+					<div class="section padding-top-bottom over-hide z-bigger">
+						<ul class="slide-buttons">
+							<li class="">
+								<a href="main.html" class="hover-target" data-hover="main">main</a>
+							</li>
+							<li class="">
+								<a href="impressionism.html" class="hover-target" class="hover-target" data-hover="impressionism">impressionism</a>
+							</li>
+							<li class="">
+								<a href="artist.html" class="hover-target" data-hover="artist">artist</a>
+							</li>
+							<li class="">
+								<a href="artwork.html" class="hover-target" data-hover="art work">art work</a>
+							</li>
+							<li class="">
+								<a href="exhibition.html" class="hover-target" data-hover="exhibition">exhibition</a>
+							</li>
+							<li class="">
+								<a href="qna.html" class="hover-target" data-hover="qna">qna</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+				
+			<!-- Page cursor
+			================================================== -->
+			<div class="cur">
+				<div class='cursor' id="cursor"></div>
+				<div class='cursor2' id="cursor2"></div>
+				<div class='cursor3' id="cursor3"></div> 
+			</div>
+		</section>
+		
+		<main>
+			<div data-scroll class="page page--layout-2">
+				<div class="imtit">
+					<h1 class="text">
+						<span class="wow bounceInDown" data-wow-delay="0.3s">I</span>
+						<span class="wow bounceInDown" data-wow-delay="0.4s">m</span>
+						<span class="wow bounceInDown" data-wow-delay="0.5s">p</span>
+						<span class="wow bounceInDown" data-wow-delay="0.6s">r</span>
+						<span class="wow bounceInDown" data-wow-delay="0.7s">e</span>
+						<span class="wow bounceInDown" data-wow-delay="0.8s">s</span>
+						<span class="wow bounceInDown" data-wow-delay="0.9s">s</span>
+						<span class="wow bounceInDown" data-wow-delay="1.0s">i</span>
+						<span class="wow bounceInDown" data-wow-delay="1.1s">o</span>
+						<span class="wow bounceInDown" data-wow-delay="1.2s">n</span>
+						<span class="wow bounceInDown" data-wow-delay="1.3s">i</span>
+						<span class="wow bounceInDown" data-wow-delay="1.4s">s</span>
+						<span class="wow bounceInDown" data-wow-delay="1.5s">m</span>
+					</h1>
+					<div class="bar"></div>
+					<p  class="wow fadeInUp" data-wow-delay="1.6s">인상주의의 특징</p>
+				</div>
+				<div class="content content--full content--alternate">
+					<div class="content__item content__item--wide">
+						<span class="content__item-number">01</span>
+						<div class="content__item-imgwrap"><div class="content__item-img" style="background-image: url(img/드가_발레수업.jpg);"></div></div>
+						<div class="content__item-deco"></div>
+						<h2 class="content__item-title">New</h2>
+						<p class="content__item-description wow fadeInLeft">
+							<span>낭만주의의 기본 이념에 반대한 성향</span><br>인상주의자들은 전통 양식에서 벗어나 새로운 양식을 구사하고 회화에서
+							감정을 제외시켰다. 화가의 감정 표현을 중시하는 낭만주의의 근본정신을 무시한 것이다. 모네의 그림 속에는 모네 자신의 감정이 크게 표현되어 있지 않고,
+							오로지 찰나에서 얻은 인상의 느낌만이 들어 있다. 누구라도 받을 수 있는 보편적인 인상을 작품 속에 붙들어 매기 위해 노력한 것이다.
+						</p>
+					</div>
+					<div class="content__item content__item--wide">
+						<span class="content__item-number">02</span>
+						<div class="content__item-imgwrap"><div class="content__item-img" style="background-image: url(img/시슬레_빌뇌브_라_가렌느의_다리.jpg);"></div></div>
+						<div class="content__item-deco"></div>
+						<h2 class="content__item-title">Scientific</h2>
+						<p class="content__item-description  wow fadeInRight">
+							<span>과학적 사실주의</span><br>자연과 삶의 현장을 가능한 객관적이며 과학적 정신에 따라 기록했다.
+							모네의 경우 같은 대상을 같은 시각, 같은 장소에서 묘사하여 빛이 대상에 미치는 역할 혹은 효과를 기록하려 애썼다. 그는 오로지 자신의 눈으로
+							보는 것만을 그렸으므로 그의 그림은 '과학적 사실주의'라 불러야 마땅하다.
+						</p>
+					</div>
+					<div class="content__item content__item--wide">
+						<span class="content__item-number">03</span>
+						<div class="content__item-imgwrap"><div class="content__item-img" style="background-image: url(img/마네_스튜디오\ 보트에서\ 작업하는\ 모네.jpg);"></div></div>
+						<div class="content__item-deco"></div>
+						<h2 class="content__item-title">Light</h2>
+						<p class="content__item-description wow fadeInLeft">
+							<span>색채 분할법 사용</span><br>빛이 계절과 시각에 따라 달라지며 이 때문에 사물이 다르게 표현됨을 알고 이를 다양한 색조로 표현했다. 그러기 위해
+							색채를 작게 분할하는 색채 분할법을 사용했으며 자유로운 관찰을 통해 대기가 주는 밝고 미묘한 인상을 전달했다. 인상주의 화가들은 직접 자연으로 나가 대상을 관찰하여 빛 속에 보이는
+							자연과 삶의 현장이 결코 고정된 것이 아니며, 형태 또한 일정하지 않다는 것을 깨닫고 그것을 실제로 보여 주려 애썼다.
+						</p>
+					</div>
+					<div class="content__item content__item--wide">
+						<span class="content__item-number">04</span>
+						<div class="content__item-imgwrap"><div class="content__item-img" style="background-image: url(img/마네_장르퇴유_정원의_모네가족.jpg);"></div></div>
+						<div class="content__item-deco"></div>
+						<h2 class="content__item-title">Immediate</h2>
+						<p class="content__item-description wow fadeInRight">
+							<span>즉각적 인상 효과</span><br>스냅사진처럼 즉각적인 인상의 효과를 전달하려 애썼다. 그러다 보니 봇을 신속하게 사용할 수 밖에 없어 짧게 끊듯이 붓질을 했다.
+							때로는 물감을 팔레트에 섞어 사용하기보다는 화면에 튜브를 대고 직접 물감을 짜서 사용하기도 했다.
+						</p>
+					</div>
+					 <div class="content__item content__item--wide">
+						<span class="content__item-number">05</span>
+						<div class="content__item-imgwrap"><div class="content__item-img" style="background-image: url(img/모네_아르장퇴유의_양귀비_들판.jpg);"></div></div>
+						<div class="content__item-deco"></div>
+						<h2 class="content__item-title">Variety</h2>
+						<p class="content__item-description wow fadeInLeft">
+							<span>개성 있는 회화 세계를 가진 사람들의 모임</span><br>인상주의 화가들은 저마다 다른 재능을 겸비했으며 기질도 다르고 화풍 또한 다양했다. 따라서 하나의 양식 혹은 사조를 형성하기보다는 하나의 운동을 전개한 것이다.</p>
+					</div>
+					<!--<div class="content__item content__item--wide">
+						<span class="content__item-number">06</span>
+						<div class="content__item-imgwrap"><div class="content__item-img" style="background-image: url(img/16.jpg);"></div></div>
+						<div class="content__item-deco"></div>
+						<h2 class="content__item-title">Wy</h2>
+						<p class="content__item-description">We'll put some happy little leaves here and there.</p>
+					</div>
+					<div class="content__item content__item--wide">
+						<span class="content__item-number">07</span>
+						<div class="content__item-imgwrap"><div class="content__item-img" style="background-image: url(img/11.jpg);"></div></div>
+						<div class="content__item-deco"></div>
+						<h2 class="content__item-title">Tx</h2>
+						<p class="content__item-description">With something so strong, a little bit can go a long way.</p>
+					</div>
+					<div class="content__item content__item--wide">
+						<span class="content__item-number">08</span>
+						<div class="content__item-imgwrap"><div class="content__item-img" style="background-image: url(img/4.jpg);"></div></div>
+						<div class="content__item-deco"></div>
+						<h2 class="content__item-title">Sd</h2>
+						<p class="content__item-description">There are no limits in this world.</p>
+					</div> 
+					<p class="credits">Photography by <a href="https://www.instagram.com/byfoul/">Frankie Cordoba</a></p>-->
+				</div>
+			</div>
+		</main>
+		<script src="SmoothScrollingImageEffects/js/imagesloaded.pkgd.min.js"></script>
+		<script src="SmoothScrollingImageEffects/js/demo.js"></script>
+	</body>
+</html>

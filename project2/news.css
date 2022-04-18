@@ -1,0 +1,194 @@
+@charset "utf-8";
+
+section {width: 100%;
+    padding-bottom: 100px;}
+.news_main {background: url(img/ella-olsson-2IxTgsgFi-s-unsplash.jpg)no-repeat center center;
+    width: 100%;
+    height: 500px;
+    position: relative;}
+.news_main>.tt {
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+}
+.news_main>.tt>.tit {font-size: 2.5em;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: 700;}
+.news_main>.tt>.bor_b {
+    border-top: 5px solid #fff;
+    width: 100px;
+    margin: 20px auto;
+}
+.news_main>.tt>.p {font-size: 1.2em;
+    font-family: 'Nanum Gothic', sans-serif;}
+
+.art1 {width: 62.5%;
+    margin: 100px auto;}
+
+.art1>.a1tit {text-align: center;
+    
+    color: #85857d;
+    
+}
+.art1>.a1tit>h3 {font-family: 'Nanum Gothic', sans-serif;
+    font-weight: 600;
+    color: #4b9688;
+    font-size: 2em;}
+.art1>.a1tit>p {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 500;
+    font-size: 1.5em;
+    margin-bottom: 30px;}
+
+.swiper-container {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+.swiper-container .swiper-wrapper {}
+.swiper-container .swiper-wrapper .ss1 {background: url(img/20200910-news01-800x445.jpg) no-repeat center center;
+    background-size: cover;}
+.swiper-container .swiper-wrapper .ss2 {background: url(img/20200907-news03-800x445.jpg) no-repeat center center;
+    background-size: cover;}
+.swiper-container .swiper-wrapper .ss3 {background: url(img/20200829-news01-800x445.jpg) no-repeat center center;
+    background-size: cover;}
+.swiper-container .swiper-wrapper .ss4 {background: url(img/20200831-news02-800x445.jpg) no-repeat center center;
+    background-size: cover;}
+.swiper-container .swiper-wrapper .ss5 {background: url(img/20200816-news01-800x445.jpg) no-repeat center center;
+    background-size: cover;}
+.swiper-container .swiper-wrapper .ss6 {background: url(img/20200807-news01-800x445.jpg) no-repeat center center;
+    background-size: cover;}
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px !important;
+    height: 300px !important;
+    background: chartreuse;
+    position: relative;
+  }
+
+.swiper-slide .st {background: rgba(255, 255, 255, 0.7);
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    padding: 10px;
+    height: 100px;
+    box-sizing: border-box;} 
+.swiper-slide .st p {color: #222;
+    font-size: 1.2em;}
+.swiper-slide .st button {outline: none;
+    border: 1px solid #222;
+    background: none;
+    width: 70px;
+    height: 30px;
+    position: absolute;
+    right: 10px;
+    bottom: 20px;
+    z-index: 11;}
+
+.swiper-slide .st button:hover {background: #222;
+    transition: 0.3s;}
+.swiper-slide .st button a {color: #222;
+    display: block;}
+.swiper-slide .st button:hover a {color: #fff;
+    transition: 0.3s;}
+
+:root {
+    --swiper-theme-color: #4b9688 !important;}
+.art2 {background: url(img/나뭇잎배경-01.jpg)no-repeat center center;
+    background-size: cover;
+    padding: 40px 0px;}
+.art2>.a2wrap {width: 62.5%;
+    margin: 0px auto;}
+.art2>.a2wrap>.tit {text-align: center;
+    color: #85857d;}
+.art2>.a2wrap>.tit>h3 {font-family: 'Nanum Gothic', sans-serif;
+    font-weight: 600;
+    color: #4b9688;
+    font-size: 2em;}
+.art2>.a2wrap>.tit>p {font-family: 'Barlow', sans-serif;
+    font-weight: 500;
+    font-size: 1.5em;
+    margin-bottom: 30px;}
+
+.art2>.a2wrap .vv_wr {display: flex;
+    justify-content: space-between;}
+.art2>.a2wrap>.vv_wr>.vv {width: 49%;}
+.art2>.a2wrap>.vv_wr>.vv iframe {width: 100%;
+    height: 315px;}
+.art2>.a2wrap>.vv_wr>.vv2 {width: 49%;}
+.art2>.a2wrap>.vv_wr>.vv2 iframe {width: 100%;
+    height: 315px;}
+
+.art2>.a2wrap>.vv_wr>.vv>.vit, .art2>.a2wrap>.vv_wr>.vv2>.vit {
+    background: #8c9a84;
+    /* border-top: 5px solid #F2E4A3; */
+    padding: 20px;
+    box-sizing: border-box;
+    min-height: 192px;
+    margin-top: 10px;
+    
+}
+
+.art2>.a2wrap>.vv_wr .vit h3 {color: #F2E4A3;
+    font-size: 1.8em;
+    font-weight: 500;}
+
+.art2>.a2wrap>.vv_wr .vit p {color: #fff;
+    line-height: 1.8;}
+
+
+.art3 {width: 62.5%;
+    margin: 100px auto 0px auto;}
+
+.art3 .tit {text-align: center;
+    color: #85857d;
+    margin-bottom: 30px;}
+.art3 .tit h3 {font-family: 'Nanum Gothic', sans-serif;
+    font-weight: 600;
+    color: #4b9688;
+    font-size: 2em;}
+
+.art3 .tit p {font-family: 'Barlow', sans-serif;
+    font-weight: 500;
+    font-size: 1.5em;} 
+
+table a, table span {font-size: 12px;}
+
+@media only screen and (max-width: 1462px) {
+    .art2>.a2wrap>.vv_wr>.vv>.vit, .art2>.a2wrap>.vv_wr>.vv2>.vit {min-height: 220px;}
+}
+@media only screen and (max-width: 1232px) {
+    .art2>.a2wrap>.vv_wr>.vv>.vit, .art2>.a2wrap>.vv_wr>.vv2>.vit {min-height: 232px;}
+}
+@media only screen and (max-width: 1211px) {
+    .art2>.a2wrap>.vv_wr>.vv>.vit, .art2>.a2wrap>.vv_wr>.vv2>.vit {min-height: 248px;}
+}
+@media only screen and (max-width: 1100px) {
+    .art1, .art2>.a2wrap, .art3 {width: 80%;}
+}
+@media only screen and (max-width: 1000px) {
+    .art2>.a2wrap .vv_wr {display: block;}
+    .art2>.a2wrap>.vv_wr>.vv, .art2>.a2wrap>.vv_wr>.vv2 {width: 100%;}
+    .art2>.a2wrap>.vv_wr>.vv>.vit, .art2>.a2wrap>.vv_wr>.vv2>.vit {min-height: 100px;} 
+    .art2>.a2wrap>.vv_wr>.vv2 {margin-top: 20px;}
+}
+@media only screen and (max-width: 671px) {
+    .art1, .art2>.a2wrap, .art3 {width: 90%;}
+    .fw {height: 402px;
+    position: relative;}
+    footer>.fl>.social>li:first-child {width: 37px;}
+    .fl, .fr {float: none;}
+    footer>.fl>p.copy {right: 0px;
+        bottom: 0px;}
+}
+
+@media only screen and (max-width: 450px) {
+    .news_main {height: 400px;} 
+    .fw {height: 364px;
+        }
+}

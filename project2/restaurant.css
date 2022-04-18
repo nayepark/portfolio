@@ -1,0 +1,236 @@
+@charset "utf-8";
+
+section {width: 100%;
+}
+section>.restaurant_main {
+    background: url(img/jay-wennington-N_Y88TWmGwA-unsplash2.jpg) no-repeat center center;
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+section>.restaurant_main>.tt {color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+    }
+section>.restaurant_main>.tt>.tit {font-size: 2.5em;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: 700;}
+section>.restaurant_main>.tt>.bor_b {
+    border-top: 5px solid #fff;
+    width: 100px;
+    margin: 20px auto;
+}
+section>.restaurant_main>.tt>p {font-size: 1.2em;
+    font-family: 'Nanum Gothic', sans-serif;}
+
+section>.res {}
+section>.res>.res1 {
+   
+}
+section>.res>.res1>.tit {text-align: center;
+    margin-top: 100px;}
+section>.res>.res1>.tit>h2 {font-size: 2em;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: 700;
+    color: #50a38f;}
+section>.res>.res1>.tit>.bor_b {border-top: 5px solid#50a38f;
+    width: 50px;
+    margin: 10px auto;}
+section>.res>.res1>.res_small {
+    width: 62.5%; 
+    margin: 50px auto;
+    overflow: hidden;}
+section>.res>.res1>.res_small>li {float: left;
+    width: 25%;
+    position: relative;
+    }
+
+section>.res>.res1>.res_small>li>.small_img {width: 100%;
+    height: 300px;
+    overflow: hidden;
+    position: relative;}
+section>.res>.res1>.res_small>li>.small_img>img {width: 155%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);}
+section>.res>.res1>.res_small>li>.simg1 {
+    background: url(img/goodeats-yqr-v4vxUH-pYpA-unsplash.jpg) no-repeat center center;
+    background-size: cover;
+}
+section>.res>.res1>.res_small>li>.simg2 {
+    background: url(img/vaishnav-chogale-fU5_WBTXa_Y-unsplash.jpg) no-repeat center center;
+    background-size: cover;
+}
+section>.res>.res1>.res_small>li>.simg3 {
+    background: url(img/charles-koh-gXhg_1NRWjE-unsplash.jpg) no-repeat center center;
+    background-size: cover;
+}
+section>.res>.res1>.res_small>li>.simg4 {
+    background: url(img/jakub-kapusnak-4f4YZfDMLeU-unsplash.jpg) no-repeat center center;
+    background-size: cover;
+}
+/* section>.res>.res_small>li>.simg1>img {bottom: 0px;}
+section>.res>.res_small>li>.simg2>img {width: 150%;
+    right: -119px;}
+section>.res>.res_small>li>.simg3>img {width: 150%;
+    left: -119px;}
+section>.res>.res_small>li>.simg4>img {
+    bottom: -30px;
+}
+section>.res>.res_small>li>.simg5>img {width: 150%;
+    left: 50%;
+    transform: translateX(-50%);}
+section>.res>.res_small>li>.simg6>img {width: 150%;
+    left: 50%;
+    transform: translateX(-50%);} */
+
+section>.res>.res1>.res_small>li>.small_text {height: 300px;
+    text-align: center;
+    line-height: 300px;
+    background: #fff;
+    padding: 10px;
+    box-sizing: border-box;
+    position: relative;}
+section>.res>.res1>.res_small>li>.small_text>h3 {font-size: 1.8em;
+    color: #50a38f;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: 700;
+    margin: 0px 0px 10px 0px;
+    line-height: 300px;}
+section>.res>.res1>.res_small>li>.small_text>h4 {color: #85857d;
+    line-height: 1.8;}
+section>.res>.res1>.res_small>li>.small_text>p {color: #85857d;
+    line-height: 1.8;
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;}
+
+
+
+
+section>.res>.res2 {background: #E6E1DA;
+    padding-bottom: 100px;}
+
+section>.res>.res2>.tit {text-align: center;
+        margin-bottom: 50px;
+        padding-top: 50px;}
+section>.res>.res2>.tit>h2 {font-size: 2em;
+        font-family: 'Nanum Gothic', sans-serif;
+        font-weight: 700;
+        color: #50a38f;}
+section>.res>.res2>.tit>.bor_b {border-top: 5px solid #50a38f;
+        width: 50px;
+        margin: 10px auto;}
+section>.res>.res2>.res_small2 {display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    -webkit-flex-flow: row wrap;
+    -moz-flex-flow: row wrap;
+    width: 62.5%; 
+    margin: 50px auto 0px auto;}
+section>.res>.res2>.res_small2>li {width: 32%;
+    position: relative;
+    overflow: hidden;
+    height: 300px;
+    }
+section>.res>.res2>.res_small2>li:nth-child(4),
+section>.res>.res2>.res_small2>li:nth-child(5),
+section>.res>.res2>.res_small2>li:nth-child(6) {margin-top: 50px;}
+section>.res>.res2>.res_small2>li>.small_img {width: 100%;
+    height: 100%;}
+section>.res>.res2>.res_small2>li>.simg1 {background: url(img/jenn-kosar-jrWoDRmhwRY-unsplash2.jpg) no-repeat center center;
+    background-size: cover;
+    height: 100%;}
+section>.res>.res2>.res_small2>li>.simg2 {background: url(img/creative-headline-KObZ3QiHJ9E-unsplash.jpg) no-repeat center center;
+    background-size: cover;
+    height: 100%;}
+section>.res>.res2>.res_small2>li>.simg3 {background: url(img/maddi-bazzocco-qKbHvzXb85A-unsplash.jpg) no-repeat center center;
+    background-size: cover;
+    height: 100%;}
+section>.res>.res2>.res_small2>li>.simg4 {background: url(img/pille-riin-priske-U0PiIS4Uvkc-unsplash2.jpg) no-repeat center center;
+    background-size: cover;
+    height: 100%;}
+section>.res>.res2>.res_small2>li>.simg5 {background: url(img/yevgen-tarasov-mCilgjklL9U-unsplash.jpg) no-repeat center center;
+    background-size: cover;
+    height: 100%;}
+section>.res>.res2>.res_small2>li>.simg6 {background: url(img/pille-riin-priske-XJGWpI_ZUxM-unsplash.jpg) no-repeat center center;
+    background-size: cover;
+    height: 100%;}
+
+
+section>.res>.res2>.res_small2>li>.small_img>img {width: 100%;
+    vertical-align: top;}
+section>.res>.res2>.res_small2>li>.small_text {background: rgba(140, 154, 132, 0.7);
+    box-sizing: border-box;
+    padding: 10px;
+    position: absolute;
+    top: 245px;
+    width: 100%;
+    height: 100%;}
+section>.res>.res2>.res_small2>li>.small_text>h3 {font-size: 1.8em;
+    color: #fff;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: 700;
+    }
+section>.res>.res2>.res_small2>li>.small_text>p {color: #85857d;
+    line-height: 1.8;
+    color: #fff;}
+
+@media only screen and (max-width: 1200px) {
+    section>.res>.res1>.res_small>li {float: none;
+    width: 100%;
+    display: flex;}
+    section>.res>.res1>.res_small>li>.small_img {width: 50%;}
+    section>.res>.res1>.res_small>li>.small_text {width: 50%;}
+}
+@media only screen and (max-width: 1100px) {
+    section>.res>.res1>.res_small,
+    section>.res>.res2>.res_small2 {width: 80%;}
+}
+
+@media only screen and (max-width: 1000px) {
+    section>.res>.res2>.res_small2>li {width: 48%;}
+    section>.res>.res2>.res_small2>li:nth-child(4), section>.res>.res2>.res_small2>li:nth-child(5), section>.res>.res2>.res_small2>li:nth-child(6)
+    {margin: 0px;} 
+    section>.res>.res2>.res_small2>li:nth-child(3), section>.res>.res2>.res_small2>li:nth-child(4) {margin: 50px 0px;}
+}
+
+@media only screen and (max-width: 671px) {
+    section>.res>.res1>.res_small,
+    section>.res>.res2>.res_small2 {width: 90%;} 
+}
+@media only screen and (max-width: 450px) {
+    section>.restaurant_main {height: 400px;}
+    section>.res>.res1>.res_small>li {display: block;
+        margin: 50px 0px;}
+    section>.res>.res1>.res_small>li:first-child,
+    section>.res>.res1>.res_small>li:last-child {margin: 0px;}
+    section>.res>.res1>.res_small>li>.small_img {width: 100%;}
+    section>.res>.res1>.res_small>li>.small_text {width: 100%;
+        height: 200px;}
+    section>.res>.res1>.res_small>li>.small_text>h3 {line-height: 200px;}
+    section>.res>.res1>.res_small>li:nth-child(2),  section>.res>.res1>.res_small>li:nth-child(4) {
+        position: relative;
+        height: 500px;
+    }
+    section>.res>.res1>.res_small>li:nth-child(2)>.small_text,
+    section>.res>.res1>.res_small>li:nth-child(4)>.small_text {position: absolute;
+        bottom: 0px;}
+    section>.res>.res1>.res_small>li>.simg2,
+    section>.res>.res1>.res_small>li>.simg4 {position: absolute;
+        top: 0px;}
+
+    section>.res>.res2>.res_small2 {display: block;}
+    section>.res>.res2>.res_small2>li {width: 100%;
+        margin: 50px 0px;}
+    /* section>.res>.res2>.res_small2>li:nth-child(3), section>.res>.res2>.res_small2>li:nth-child(4) {margin: 0px;} */
+    section>.res>.res2>.res_small2>li>.small_text>h3 {margin-bottom: 10px;}
+    section>.res>.res2>.res_small2>li:nth-child(5) {margin: 50px 0px;}
+}

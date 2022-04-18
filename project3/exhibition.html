@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>IM.</title>
+		<meta name="description" content="A Masonry-powered grid layout with a motion hover effect on the grid items and a scrollable content view." />
+		<meta name="keywords" content="masonry, grid layout, hover effect, content preview, javascript, gsap, template, web design" />
+		<meta name="author" content="Codrops" />
+		<!-- <link rel="shortcut icon" href="favicon.ico"> -->
+		<link rel="stylesheet" type="text/css" href="GridLayoutScrollableContent/css/base.css" />
+		<link rel="stylesheet" href="template.css">
+		<link rel="stylesheet" href="exhibition.css">
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+		<!-- wow -->
+		<link rel="stylesheet" href="wow/css/libs/animate.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+		<link rel="shortcut icon" href="img/favicon.ico">
+
+
+		<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+		<script src="exhibition.js"></script>
+
+		<!-- wow -->
+		<script src="wow/dist/wow.min.js"></script>
+		<script src="wow/dist/wow.js"></script>
+		<script>document.documentElement.className="js";var supportsCssVars=function(){var e,t=document.createElement("style");return t.innerHTML="root: { --tmp-var: bold; }",document.head.appendChild(t),e=!!(window.CSS&&window.CSS.supports&&window.CSS.supports("font-weight","var(--tmp-var)")),t.parentNode.removeChild(t),e};supportsCssVars()||alert("Please view this demo in a modern browser that supports CSS Variables.");</script>
+	</head>
+	<body class="loading">
+		<header>
+			<div class="logo"><a href="intro.html">IM.</a></div>
+			<div class="nav-but-wrap">
+				<div class="menu-icon hover-target">
+					<span class="menu-icon__line menu-icon__line-left"></span>
+					<span class="menu-icon__line"></span>
+					<span class="menu-icon__line menu-icon__line-right"></span>
+				</div>					
+			</div>	
+		</header>
+		<section>
+			<div class="nav">
+				<div class="nav__content">
+					<div class="hero-center-section">
+						<div class="left-text">main</div>
+						<div class="container">
+							<div class="row justify-content-center">
+								<div class="col-md-8">
+									<div class="blb">
+										<div class="img-wrap">
+											<img src="img/드가_발레수업.jpg" alt="">
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="hero-center-section">
+						<div class="left-text">impressionism</div>
+						<div class="container">
+							<div class="row justify-content-center">
+								<div class="col-md-8">
+									<div class="blb">
+										<div class="img-wrap">
+											<img src="img/르누아르_책읽는소녀.jpg" alt="">
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="hero-center-section">
+						<div class="left-text">artist</div>
+						<div class="container">
+							<div class="row justify-content-center">
+								<div class="col-md-8">
+									<div class="blb">
+										<div class="img-wrap">
+											<img src="img/마네_스튜디오 보트에서 작업하는 모네.jpg" alt="">
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="hero-center-section">
+						<div class="left-text">art work</div>
+						<div class="container">
+							<div class="row justify-content-center">
+								<div class="col-md-8">
+									<div class="blb">
+										<div class="img-wrap">
+											<img src="img/모네_해돋이.jpg" alt="">
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="hero-center-section">
+						<div class="left-text">exhibition</div>
+						<div class="container">
+							<div class="row justify-content-center">
+								<div class="col-md-8">
+									<div class="blb">
+										<div class="img-wrap">
+											<img src="img/피사로_몽마르트대로밤풍경.jpg" alt="">
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="hero-center-section">
+						<div class="left-text">qna</div>
+						<div class="container">
+							<div class="row justify-content-center">
+								<div class="col-md-8">
+									<div class="blb">
+										<div class="img-wrap">
+											<img src="img/시슬레_빌뇌브_라_가렌느의_다리.jpg" alt="">
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+						
+						
+					<div class="section padding-top-bottom over-hide z-bigger">
+						<ul class="slide-buttons">
+							<li class="">
+								<a href="main.html" class="hover-target" data-hover="main">main</a>
+							</li>
+							<li class="">
+								<a href="impressionism.html" class="hover-target" class="hover-target" data-hover="impressionism">impressionism</a>
+							</li>
+							<li class="">
+								<a href="artist.html" class="hover-target" data-hover="artist">artist</a>
+							</li>
+							<li class="">
+								<a href="artwork.html" class="hover-target" data-hover="art work">art work</a>
+							</li>
+							<li class="">
+								<a href="exhibition.html" class="hover-target" data-hover="exhibition">exhibition</a>
+							</li>
+							<li class="">
+								<a href="qna.html" class="hover-target" data-hover="qna">qna</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+				
+			<!-- Page cursor
+			================================================== -->
+			<div class="cur">
+				<div class='cursor' id="cursor"></div>
+				<div class='cursor2' id="cursor2"></div>
+				<div class='cursor3' id="cursor3"></div> 
+			</div>
+		</section>
+	
+		<main>
+			<div class="imtit">
+				<h1 class="text">
+					<span class="wow bounceInDown" data-wow-delay="0.3s">e</span>
+					<span class="wow bounceInDown" data-wow-delay="0.4s">x</span>
+					<span class="wow bounceInDown" data-wow-delay="0.5s">h</span>
+					<span class="wow bounceInDown" data-wow-delay="0.6s">b</span>
+					<span class="wow bounceInDown" data-wow-delay="0.7s">i</span>
+					<span class="wow bounceInDown" data-wow-delay="0.8s">t</span>
+					<span class="wow bounceInDown" data-wow-delay="0.9s">i</span>
+					<span class="wow bounceInDown" data-wow-delay="1.0s">o</span>
+					<span class="wow bounceInDown" data-wow-delay="1.1s">n</span>
+				</h1>
+				<div class="bar"></div>
+				<p  class="wow fadeInUp" data-wow-delay="1.2s">전시회 소개</p>
+			</div>
+			<svg class="hidden">
+				<symbol id="icon-arrow" viewBox="0 0 24 24">
+					<title>arrow</title>
+					<polygon points="6.3,12.8 20.9,12.8 20.9,11.2 6.3,11.2 10.2,7.2 9,6 3.1,12 9,18 10.2,16.8 "/>
+				</symbol>
+				<symbol id="icon-drop" viewBox="0 0 24 24">
+					<title>drop</title>
+					<path d="M12,21c-3.6,0-6.6-3-6.6-6.6C5.4,11,10.8,4,11.4,3.2C11.6,3.1,11.8,3,12,3s0.4,0.1,0.6,0.3c0.6,0.8,6.1,7.8,6.1,11.2C18.6,18.1,15.6,21,12,21zM12,4.8c-1.8,2.4-5.2,7.4-5.2,9.6c0,2.9,2.3,5.2,5.2,5.2s5.2-2.3,5.2-5.2C17.2,12.2,13.8,7.3,12,4.8z"/><path d="M12,18.2c-0.4,0-0.7-0.3-0.7-0.7s0.3-0.7,0.7-0.7c1.3,0,2.4-1.1,2.4-2.4c0-0.4,0.3-0.7,0.7-0.7c0.4,0,0.7,0.3,0.7,0.7C15.8,16.5,14.1,18.2,12,18.2z"/>
+				</symbol>
+				<svg id="icon-github" viewBox="0 0 33 33">
+					<title>github</title>
+					<path d="M16.608.455C7.614.455.32 7.748.32 16.745c0 7.197 4.667 13.302 11.14 15.456.815.15 1.112-.353 1.112-.785 0-.386-.014-1.411-.022-2.77-4.531.984-5.487-2.184-5.487-2.184-.741-1.882-1.809-2.383-1.809-2.383-1.479-1.01.112-.99.112-.99 1.635.115 2.495 1.679 2.495 1.679 1.453 2.489 3.813 1.77 4.741 1.353.148-1.052.569-1.77 1.034-2.177-3.617-.411-7.42-1.809-7.42-8.051 0-1.778.635-3.233 1.677-4.371-.168-.412-.727-2.069.16-4.311 0 0 1.367-.438 4.479 1.67a15.602 15.602 0 0 1 4.078-.549 15.62 15.62 0 0 1 4.078.549c3.11-2.108 4.475-1.67 4.475-1.67.889 2.242.33 3.899.163 4.311C26.37 12.66 27 14.115 27 15.893c0 6.258-3.809 7.635-7.437 8.038.584.503 1.105 1.497 1.105 3.017 0 2.177-.02 3.934-.02 4.468 0 .436.294.943 1.12.784 6.468-2.159 11.131-8.26 11.131-15.455 0-8.997-7.294-16.29-16.291-16.29"></path>
+				</svg>
+				<svg id="icon-caret" viewBox="0 0 32 19">
+					<title>caret</title>
+					<path d="M31.423 3.976l-14.319 14.32a1.631 1.631 0 0 1-2.306 0L.478 3.976a1.631 1.631 0 0 1 0-2.307L1.63.516a1.631 1.631 0 0 1 2.307 0l12.013 12.013L27.964.516a1.63 1.63 0 0 1 2.306 0l1.154 1.153a1.63 1.63 0 0 1-.001 2.307z"></path>
+				</svg>
+			</svg>
+			<div class="grid-wrap wow fadeIn" data-wow-delay="1.5s">
+				<div class="grid">
+					<a href="#" class="grid__item">
+						<div class="grid__item-bg"></div>
+						<div class="grid__item-wrap">
+							<img class="grid__item-img" src="img/모네에서세잔까지.jpeg" alt="Some image" />
+						</div>
+						<h3 class="grid__item-title">01</h3>
+						<h4 class="grid__item-number">From &nbsp; Monet&nbsp; to &nbsp;Cezanne</h4>
+					</a>
+					<a href="#" class="grid__item">
+						<div class="grid__item-bg"></div>
+						<div class="grid__item-wrap">
+							<img class="grid__item-img" src="img/라뜰리에.jpg" alt="Some image" />
+						</div>
+						<h3 class="grid__item-title">02</h3>
+						<h4 class="grid__item-number">Latelier</h4>
+					</a>
+					<a href="#" class="grid__item">
+						<div class="grid__item-bg"></div>
+						<div class="grid__item-wrap">
+							<img class="grid__item-img" src="img/모네와르누아르.jpg"" alt="Some image" />
+						</div>
+						<h3 class="grid__item-title">03</h3>
+						<h4 class="grid__item-number">Monet & Lonoir</h4>
+					</a>
+				</div>
+			</div><!-- /grid-wrap -->
+			<div class="content">
+				<div class="content__item">
+					<div class="content__item-intro">
+						<img class="content__item-img" src="img/모네에서세잔까지.jpeg" alt="Some image" />
+						<h2 class="content__item-title">From Monet to Cezanne</h2>
+					</div>
+					<h3 class="content__item-subtitle">모네에서 세잔까지</h3>
+					<div class="content__item-text">
+						<table class="tt" cellspacing="0">
+							<tr>
+								<td>전시명</td>
+								<td>모네에서 세잔까지 : 예루살렘 이스라엘 박물관 인상파와 후기 인상파 걸작 展</td>
+							</tr>
+							<tr>
+								<td>전시기간</td>
+								<td>2020.06.20 - 2020.08.30 (매주 월요일 휴관)</td>
+							</tr>
+							<tr>
+								<td>관람시간</td>
+								<td>10:00am - 7:00pm (마지막 입장 : 6:00pm)</td>
+							</tr>
+							<tr>
+								<td>입장료</td>
+								<td>
+									<table class="innert" cellspacing="0">
+										<tr>
+											<td>성인</td>
+											<td>15,000원</td>
+										</tr>
+										<tr>
+											<td>청소년</td>
+											<td>12,000원</td>
+										</tr>
+										<tr>
+											<td>어린이</td>
+											<td>10,000원</td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+							<tr>
+								<td>특별요금</td>
+								<td>경로우대 (만 65세 이상), 장애인 1-3급 본인 및 동반1인, 4-6급 본인, 국가유공자 : 7,500원</td>
+							</tr>
+							<tr>
+								<td>전시문의</td>
+								<td>02-6273-4242</td>
+							</tr>
+							<tr>
+								<td>홈페이지</td>
+								<td>https://impressionist.modoo.at/</td>
+							</tr>
+							<tr>
+								<td>전시장소</td>
+								<td>예술의전당 한가람미술관 2층</td>
+							</tr>
+						</table>
+					</div>
+				</div><!-- /content__item -->
+				<div class="content__item">
+					<div class="content__item-intro">
+						<img class="content__item-img" src="img/라뜰리에.jpg" alt="Some image" />
+						<h2 class="content__item-title">Latelier</h2>
+					</div>
+					<h3 class="content__item-subtitle">라뜰리에</h3>
+					<div class="content__item-text">
+						<table class="tt tt2" cellspacing="0">
+							<tr>
+								<td>전시명</td>
+								<td>라뜰리에 '명화 속 19세기 프랑스를 깨우다'</td>
+							</tr>
+							<tr>
+								<td>전시기간</td>
+								<td>2017.10.28 ~ 오픈런</td>
+							</tr>
+							<tr>
+								<td>관람시간</td>
+								<td>10:00am - 9:00pm (연중무휴)</td>
+							</tr>
+							<tr>
+								<td>입장료</td>
+								<td>
+									<table class="innert" cellspacing="0">
+										<tr>
+											<td>성인</td>
+											<td>24,000원</td>
+										</tr>
+										<tr>
+											<td>청소년</td>
+											<td>20,000원</td>
+										</tr>
+										<tr>
+											<td>어린이</td>
+											<td>16,000원</td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+							<tr>
+								<td>특별요금</td>
+								<td>경로우대 (만 65세 이상), 장애인 1-3급 본인 및 동반1인, 4-6급 본인, 국가유공자 : 7,500원</td>
+							</tr>
+							<tr>
+								<td>전시문의</td>
+								<td>1522-7327</td>
+							</tr>
+							<tr>
+								<td>홈페이지</td>
+								<td>https://light-atelier.com</td>
+							</tr>
+							<tr>
+								<td>전시장소</td>
+								<td>동대문 현대시티아울렛 11층</td>
+							</tr>
+						</table>
+					</div>
+				</div><!-- /content__item -->
+				<div class="content__item">
+					<div class="content__item-intro">
+						<img class="content__item-img" src="img/모네와르누아르.jpg" alt="Some image" />
+						<h2 class="content__item-title">Monet & Lonoir</h2>
+					</div>
+					<h3 class="content__item-subtitle">모네 & 르누아르 걸작 레플리카전</h3>
+					<div class="content__item-text">
+						<table class="tt" cellspacing="0">
+							<tr>
+								<td>전시명</td>
+								<td>프랑스 인상파의 거장 - 모네&르누아르 레플리카 展</td>
+							</tr>
+							<tr>
+								<td>전시기간</td>
+								<td>2020.08.13 - 2020.08.31 (연중무휴)</td>
+							</tr>
+							<tr>
+								<td>관람시간</td>
+								<td>10:00am - 6:00pm</td>
+							</tr>
+							<tr>
+								<td>입장료</td>
+								<td>무료</td>
+							</tr>
+							<tr>
+								<td>전시문의</td>
+								<td>043-723-1345</td>
+							</tr>
+							<tr>
+								<td>도슨트</td>
+								<td>
+									<table class="innert" cellspacing="0">
+										<tr>
+											<td>주중</td>
+											<td>2시, 4시</td>
+										</tr>
+										<tr>
+											<td>주말, 공휴일</td>
+											<td>11시, 2시, 4시</td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+							<tr>
+								<td>홈페이지</td>
+								<td>www.cjcf.or.kr</td>
+							</tr>
+							<tr>
+								<td>전시장소</td>
+								<td>충주문화회관 전시실</td>
+							</tr>
+						</table>
+					</div>
+				</div><!-- /content__item -->
+			
+				<button class="content__close"><i class="material-icons" style="font-size:30px">close</i></button>
+				<svg class="content__indicator icon icon--caret"><use xlink:href="#icon-caret"></use></svg>
+			</div>
+		</main>
+		<script src="GridLayoutScrollableContent/js/imagesloaded.pkgd.min.js"></script>
+		<script src="GridLayoutScrollableContent/js/masonry.pkgd.min.js"></script>
+		<script src="GridLayoutScrollableContent/js/charming.min.js"></script>
+		<script src="GridLayoutScrollableContent/js/TweenMax.min.js"></script>
+		<script src="GridLayoutScrollableContent/js/demo.js"></script>
+	</body>
+</html>

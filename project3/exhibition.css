@@ -1,0 +1,70 @@
+@charset "utf-8";
+
+
+.hidden {display: none;}
+.nav {z-index: 9998;}
+
+
+.imtit {margin: 15vh auto;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);}
+
+.imtit h1 {font-size: 5vw;
+    font-family: 'Crimson Text', serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #967C71;}   
+
+.imtit p {text-align: center;
+    margin-top: -2.5%;
+    font-size: 25px;
+    font-family: 'Nanum Myeongjo', serif;
+    color: #967C71;
+    font-weight: 700;
+}
+
+
+.tt {width: 100%;
+    font-family: 'Nanum Gothic', sans-serif;
+    padding: 10px;
+    border: none;
+    color: #44351B;}
+
+.tt tr {border-top: 1px solid #967C71;
+    border-bottom: 1px solid #967C71;}
+.tt tr:first-child {border: none;}
+.tt tr:last-child {border: none;}
+
+.tt td {padding: 0px 10px;
+    height: 50px;}
+.tt td:first-child {width: 18%;
+    text-align: center;}
+
+.innert {text-align: left;
+    width: 100%;
+    border: none;
+    border-left: 1px solid#967C71;
+    }
+
+.innert tr:first-child {border-bottom: 1px solid #967C71;}
+
+.innert td:first-child {border-right: 1px solid #967C71;}
+
+@media (max-width: 824px) {
+    .innert td:first-child {width: 25% !important;}
+}
+@media (max-width: 575px) {.imtit h1 {font-size: 7vw;}
+    .imtit p{font-size: 20px;}}
+@media (max-width: 499px) {
+    .tt td:first-child {width: 30% !important;}
+	.tt td:last-child {width: 70% !important;}
+    
+	.innert td:first-child {width: 40% !important;}
+}
+
+@media (max-width: 339px) {
+    .tt td:first-child {width: 30% !important;}
+    .tt:first-child td {padding: 0px;}
+}
+

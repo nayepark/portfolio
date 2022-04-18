@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>IM.</title>
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+		<meta name="author" content="Codrops">
+		<!-- <link rel="shortcut icon" href="favicon.26242483.ico"> -->
+		<link rel="stylesheet" href="https://use.typekit.net/yuz0mhb.css">
+		<link rel="stylesheet" type="text/css" href="MenuFullGrid/base.98fd6c19.css">
+		<link rel="stylesheet" href="artwork.css">
+		
+
+		<!-- fancy box -->
+		<link rel="stylesheet" type="text/css" href="fancy/dist/jquery.fancybox.min.css">
+		<link rel="stylesheet" href="PhotoSwipe-master/dist/photoswipe.css"> 
+
+		<link rel="shortcut icon" href="img/favicon.ico">
+
+		<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+		<script src="artwork.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+
+
+		<!-- fancy box -->
+		<script src="fancy/dist/jquery.fancybox.min.js"></script>
+		<script>document.documentElement.className = "js";
+
+var supportsCssVars = function supportsCssVars() {
+  var e,
+      t = document.createElement("style");
+  return t.innerHTML = "root: { --tmp-var: bold; }", document.head.appendChild(t), e = !!(window.CSS && window.CSS.supports && window.CSS.supports("font-weight", "var(--tmp-var)")), t.parentNode.removeChild(t), e;
+};
+
+supportsCssVars() || alert("Please view this demo in a modern browser that supports CSS Variables.");</script>
+		<!-- <script src="//tympanus.net/codrops/adpacks/analytics.js"></script> -->
+	</head>
+	<body class="demo-1 loading">
+		<header>
+			<div class="logo"><a href="intro.html">IM.</a></div>
+			<div class="nav-but-wrap">
+				<div class="menu-icon hover-target">
+					<span class="menu-icon__line menu-icon__line-left"></span>
+					<span class="menu-icon__line"></span>
+					<span class="menu-icon__line menu-icon__line-right"></span>
+				</div>					
+			</div>	
+		</header>
+		<section>
+			<div class="nav">
+				<div class="nav__content">
+					<div class="hero-center-section">
+						<div class="left-text">main</div>
+						<div class="container">
+							<div class="row justify-content-center">
+								<div class="col-md-8">
+									<div class="blb">
+										<div class="img-wrap">
+											<img src="img/드가_발레수업.jpg" alt="">
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="hero-center-section">
+						<div class="left-text">impressionism</div>
+						<div class="container">
+							<div class="row justify-content-center">
+								<div class="col-md-8">
+									<div class="blb">
+										<div class="img-wrap">
+											<img src="img/르누아르_책읽는소녀.jpg" alt="">
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="hero-center-section">
+						<div class="left-text">artist</div>
+						<div class="container">
+							<div class="row justify-content-center">
+								<div class="col-md-8">
+									<div class="blb">
+										<div class="img-wrap">
+											<img src="img/마네_스튜디오 보트에서 작업하는 모네.jpg" alt="">
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="hero-center-section">
+						<div class="left-text">art work</div>
+						<div class="container">
+							<div class="row justify-content-center">
+								<div class="col-md-8">
+									<div class="blb">
+										<div class="img-wrap">
+											<img src="img/모네_해돋이.jpg" alt="">
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="hero-center-section">
+						<div class="left-text">exhibition</div>
+						<div class="container">
+							<div class="row justify-content-center">
+								<div class="col-md-8">
+									<div class="blb">
+										<div class="img-wrap">
+											<img src="img/피사로_몽마르트대로밤풍경.jpg" alt="">
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="hero-center-section">
+						<div class="left-text">qna</div>
+						<div class="container">
+							<div class="row justify-content-center">
+								<div class="col-md-8">
+									<div class="blb">
+										<div class="img-wrap">
+											<img src="img/시슬레_빌뇌브_라_가렌느의_다리.jpg" alt="">
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+						
+						
+					<div class="section padding-top-bottom over-hide z-bigger">
+						<ul class="slide-buttons">
+							<li class="">
+								<a href="main.html" class="hover-target" data-hover="main">main</a>
+							</li>
+							<li class="">
+								<a href="impressionism.html" class="hover-target" class="hover-target" data-hover="impressionism">impressionism</a>
+							</li>
+							<li class="">
+								<a href="artist.html" class="hover-target" data-hover="artist">artist</a>
+							</li>
+							<li class="">
+								<a href="artwork.html" class="hover-target" data-hover="art work">art work</a>
+							</li>
+							<li class="">
+								<a href="exhibition.html" class="hover-target" data-hover="exhibition">exhibition</a>
+							</li>
+							<li class="">
+								<a href="qna.html" class="hover-target" data-hover="qna">qna</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+				
+			<!-- Page cursor
+			================================================== -->
+			<div class="cur">
+				<div class='cursor' id="cursor"></div>
+				<div class='cursor2' id="cursor2"></div>
+				<div class='cursor3' id="cursor3"></div> 
+			</div>
+		</section>
+		<svg class="hidden">
+			<symbol id="icon-arrow" viewBox="0 0 511.996 511.996">
+				<title>Arrow left</title>
+				<path d="M462.51 220.392H172.707l67.017-68.342a7.133 7.133 0 00.014-9.956l-39.544-40.612a7.13 7.13 0 00-10.204 0L44.383 251.028a7.128 7.128 0 000 9.941L189.99 410.514c1.338 1.375 3.176 2.15 5.099 2.15s3.76-.775 5.105-2.15l39.544-40.612a7.126 7.126 0 00-.014-9.956l-67.017-68.342H462.51c3.93 0 7.12-3.19 7.12-7.12v-56.97a7.124 7.124 0 00-7.12-7.122z"></path>
+			</symbol>
+		</svg>
+		<main>
+			<div class="bg-gallery-wrap">
+				<div class="bg-gallery bg-gallery--1">
+					<img class="bg-gallery__item" src="img/모네_수련연못.jpg" alt="Some image">
+					<img class="bg-gallery__item" src="img/모네_아르장떼유의_보트들.jpg" alt="Some image">
+					<img class="bg-gallery__item" src="img/모네_정원의_여인들.jpg" alt="Some image">
+					<img class="bg-gallery__item" src="img/모네_파라솔을든여인.jpg" alt="Some image">
+					<img class="bg-gallery__item" src="img/모네_해돋이.jpg" alt="Some image">
+					<img class="bg-gallery__item" src="img/모네_푸르빌의_절벽에서.jpg" alt="Some image">
+				</div>
+				<div class="bg-gallery bg-gallery--2">
+					<img class="bg-gallery__item" src="img/마네_나나.jpg" alt="Some image">
+					<img class="bg-gallery__item" src="img/마네_봄.jpg" alt="Some image">
+					<img class="bg-gallery__item" src="img/마네_뱃놀이.jpg" alt="Some image">
+					<img class="bg-gallery__item" src="img/마네_장르퇴유_정원의_모네가족.jpg" alt="Some image">
+					<img class="bg-gallery__item" src="img/마네_폴리베르제르술집.jpg" alt="Some image">
+					<img class="bg-gallery__item" src="img/마네_튈르리에서의_음악회.jpg" alt="Some image">
+				</div>
+				<div class="bg-gallery bg-gallery--3">
+					<img class="bg-gallery__item" src="img/르누아르_해변에서.jpg" alt="Some image">
+					<img class="bg-gallery__item" src="img/르누아르_책읽는소녀.jpg" alt="Some image">
+					<img class="bg-gallery__item" src="img/르누아르_도시의_무도회.jpg" alt="Some image">
+					<img class="bg-gallery__item" src="img/르누아르_몰랭_드_라_갈레트의_무도회.jpg" alt="Some image">
+					<img class="bg-gallery__item" src="img/르누아르_두자매.jpg" alt="Some image">
+					<img class="bg-gallery__item" src="img/르누아르_피아노_앞에_앉은_소녀들.jpg" alt="Some image">
+				</div>
+				<div class="bg-gallery bg-gallery--4">
+					<img class="bg-gallery__item" src="img/드가_꽃다발을든무용수.jpg" alt="Some image">
+					<img class="bg-gallery__item" src="img/드가_무대위의_무희.jpg" alt="Some image">
+					<img class="bg-gallery__item" src="img/드가_무용수업.jpg" alt="Some image">
+					<img class="bg-gallery__item" src="img/드가_발레_대기실.jpg" alt="Some image">
+					<img class="bg-gallery__item" src="img/드가_발레수업.jpg" alt="Some image">
+					<img class="bg-gallery__item" src="img/드가_장미빛_발레복의_무희들.jpg" alt="Some image">
+				</div>
+				<div class="bg-gallery bg-gallery--5">
+					<img class="bg-gallery__item" src="img/피사로_가을,포플러,에라그니.jpg" alt="Some image">
+					<img class="bg-gallery__item" src="img/피사로_몽마르트거리의봄날아침.jpg" alt="Some image">
+					<img class="bg-gallery__item" src="img/피사로_비_오는_날_루앙의_보이엘디유_다리.jpg" alt="Some image">
+					<img class="bg-gallery__item" src="img/피사로_에라니에서_건초_수확.jpg" alt="Some image">
+					<img class="bg-gallery__item" src="img/피사로_퐁네프.jpg" alt="Some image">
+					<img class="bg-gallery__item" src="img/피사로_퐁투아즈의_외딴집.jpg" alt="Some image">
+				</div>
+				<div class="bg-gallery bg-gallery--6">
+					<img class="bg-gallery__item" src="img/시슬리_홍수난_마를리_항의_작은_배.jpg" alt="Some image">
+					<img class="bg-gallery__item" src="img/시슬리_생_마르탱_운하_전경.jpg" alt="Some image">
+					<img class="bg-gallery__item" src="img/시슬리_빌뇌브_라_가렌,세느_강의_마을.jpg" alt="Some image">
+					<img class="bg-gallery__item" src="img/시슬리_봄의_작은_초원.jpg" alt="Some image">
+					<img class="bg-gallery__item" src="img/시슬리_루브시엔느의_마쉰_길.jpg" alt="Some image">
+					<img class="bg-gallery__item" src="img/시슬리_눈_내린_루브시엔느.jpg" alt="Some image">
+				</div>
+			</div>
+			<nav class="menu" id="menu">
+				<div class="menu__headline">
+					<span class="menu__headline-deco"></span>
+					<span class="menu__headline-text"><span>Choose a artist</span></span>
+				</div>
+				<a class="menu__item menu__item--selected" href="#content-1">
+					<span class="menu__item-title">Claude Monet</span>
+					<span class="menu__item-deco">|</span>
+					<span class="menu__item-cta"><span>explore</span></span>
+				</a>
+				<a class="menu__item" href="#content-2">
+					<span class="menu__item-title">Edouard Manet</span>
+					<span class="menu__item-deco">|</span>
+					<span class="menu__item-cta"><span>explore</span></span>
+				</a>
+				<a class="menu__item" href="#content-3">
+					<span class="menu__item-title">Auguste Renoir</span>
+					<span class="menu__item-deco">|</span>
+					<span class="menu__item-cta"><span>explore</span></span>
+				</a>
+				<a class="menu__item" href="#content-4">
+					<span class="menu__item-title">Edgar De Gas</span>
+					<span class="menu__item-deco">|</span>
+					<span class="menu__item-cta"><span>explore</span></span>
+				</a>
+				<a class="menu__item" href="#content-5">
+					<span class="menu__item-title">Camille Pissarro</span>
+					<span class="menu__item-deco">|</span>
+					<span class="menu__item-cta"><span>explore</span></span>
+				</a>
+				<a class="menu__item" href="#content-6">
+					<span class="menu__item-title">Alfred Sisley</span>
+					<span class="menu__item-deco">|</span>
+					<span class="menu__item-cta"><span>explore</span></span>
+				</a>
+			</nav>
+			<section class="page page--preview">
+				<div class="content" id="content-1" data-bgcolor="#f5eee2">
+					<a class="content__back" href="#menu" aria-label="Back to menu">
+						<svg class="icon icon--arrow"><use xlink:href="#icon-arrow"></use></svg>
+					</a>
+					<h2 class="content__title"><span>Claude Monet</span></h2>
+					<p class="content__intro"><span>A sequential collaboration between Nathan Cutward and Henry Baldimore aiming to capture light.</span></p>
+					<span class="content__date"><span>1840.11.14 - 1926.12.05</span></span>
+					<div class="gallery">
+						<figure class="gallery__figure">
+							<a href="img/모네_수련연못.jpg" data-fancybox="images">
+								<img class="gallery__figure-img" src="img/모네_수련연못.jpg" alt="Some image">
+							</a>
+							<figcaption class="gallery__figure-caption">수련연못<br>The Water-Lily Pond, 1899</figcaption>
+						</figure>
+						<figure class="gallery__figure">
+							<a href="img/모네_아르장떼유의_보트들.jpg" data-fancybox="images">
+								<img class="gallery__figure-img" src="img/모네_아르장떼유의_보트들.jpg" alt="Some image">
+							</a>
+							<figcaption class="gallery__figure-caption">아르장퇴유의 보트들 <br>Régates à Argenteuil, 19C~</figcaption>
+						</figure>
+						<figure class="gallery__figure">
+							<a href="img/모네_아르장퇴유의_양귀비_들판.jpg" data-fancybox="images">
+								<img class="gallery__figure-img" src="img/모네_아르장퇴유의_양귀비_들판.jpg" alt="Some image">
+							</a>
+							<figcaption class="gallery__figure-caption">아르장퇴유의 양귀비 들판 <br>Coquelicots, environs d'Argenteuilk, 1873</figcaption>
+						</figure>
+						<figure class="gallery__figure">
+							<a href="img/모네_아이리스가_있는_모네의_정원.jpg" data-fancybox="images">
+								<img class="gallery__figure-img" src="img/모네_아이리스가_있는_모네의_정원.jpg" alt="Some image">
+							</a>
+							<figcaption class="gallery__figure-caption">아이리스가 있는 모네의 정원 <br>Le jardin de l'artiste à Giverny, 1900</figcaption>
+						</figure>
+						<figure class="gallery__figure">
+							<a href="img/모네_파라솔을든여인.jpg" data-fancybox="images">
+								<img class="gallery__figure-img" src="img/모네_파라솔을든여인.jpg" alt="Some image">
+							</a>
+							<figcaption class="gallery__figure-caption">파라솔을 든 여인 <br>Woman with a Parasol, 1875</figcaption>
+						</figure>
+						<figure class="gallery__figure">
+							<a href="img/모네_푸르빌의_절벽에서.jpg" data-fancybox="images">
+								<img class="gallery__figure-img" src="img/모네_푸르빌의_절벽에서.jpg" alt="Some image">
+							</a>
+							<figcaption class="gallery__figure-caption">푸르빌의 절벽에서 <br>Cliff Walk at Pourville, 1882</figcaption>
+						</figure>
+						<figure class="gallery__figure">
+							<a href="img/모네_해돋이.jpg" data-fancybox="images">
+								<img class="gallery__figure-img" src="img/모네_해돋이.jpg" alt="Some image">
+							</a>
+							<figcaption class="gallery__figure-caption">인상, 해돋이 <br>Impression, Sunrise, 1872</figcaption>
+						</figure>
+						<figure class="gallery__figure">
+							<a href="img/모네_몽소공원.jpg" data-fancybox="images">
+								<img class="gallery__figure-img" src="img/모네_몽소공원.jpg" alt="Some image">
+							</a>
+							<figcaption class="gallery__figure-caption">몽소공원 <br>The Parc Monceau, 1878</figcaption>
+						</figure>
+						<figure class="gallery__figure">
+							<a href="img/모네_정원의_여인들.jpg" data-fancybox="images">
+								<img class="gallery__figure-img" src="img/모네_정원의_여인들.jpg" alt="Some image">
+							</a>
+							<figcaption class="gallery__figure-caption">정원의 여인들 <br>Women in the Garden, 1867</figcaption>
+						</figure>
+					</div>
+				</div><!-- /content -->
+				<div class="content" id="content-2" data-bgcolor="#f5eee2">
+					<a class="content__back" href="#menu" aria-label="Back to menu">
+						<svg class="icon icon--arrow"><use xlink:href="#icon-arrow"></use></svg>
+					</a>
+					<h2 class="content__title"><span>Edouard Manet</span></h2>
+					<p class="content__intro"><span>What is that lighthouse over there? We will find out soon with Terrance Love.</span></p>
+					<span class="content__date"><span>1832.01.23 - 1883.04.30</span></span>
+					<div class="gallery">
+						<figure class="gallery__figure">
+							<a href="img/마네_나나.jpg" data-fancybox="images1">
+								<img class="gallery__figure-img" src="img/마네_나나.jpg" alt="Some image">
+							</a>
+							<figcaption class="gallery__figure-caption">나나 <br>Nana _1877</figcaption>
+						</figure>
+						<figure class="gallery__figure">
+							<a href="img/마네_뱃놀이.jpg" data-fancybox="images1">
+								<img class="gallery__figure-img" src="img/마네_뱃놀이.jpg" alt="Some image">
+							</a>
+							<figcaption class="gallery__figure-caption">뱃놀이 <br>La barque _1874</figcaption>
+						</figure>
+						<figure class="gallery__figure">
+							<a href="img/마네_봄.jpg" data-fancybox="images1">
+								<img class="gallery__figure-img" src="img/마네_봄.jpg" alt="Some image">
+							</a>
+							<figcaption class="gallery__figure-caption">봄 <br>Spring _1881</figcaption>
+						</figure>
+						<figure class="gallery__figure">
+							<a href="img/마네_스튜디오 보트에서 작업하는 모네.jpg" data-fancybox="images1">
+								<img class="gallery__figure-img" src="img/마네_스튜디오 보트에서 작업하는 모네.jpg" alt="Some image">
+							</a>
+							<figcaption class="gallery__figure-caption">스튜디오 보트에서 작업하는 모네 <br>Monet painting in his Studio Boat _1874</figcaption>
+						</figure>
+						<figure class="gallery__figure">
+							<a href="img/마네_장르퇴유_정원의_모네가족.jpg" data-fancybox="images1">
+								<img class="gallery__figure-img" src="img/마네_장르퇴유_정원의_모네가족.jpg" alt="Some image">
+							</a>
+							<figcaption class="gallery__figure-caption">장르퇴유 정원의 모네가족 <br>The Monet Family in Their Garden at Argenteuil _1874</figcaption>
+						</figure>
+						<figure class="gallery__figure">
+							<a href="img/마네_철도에서.jpg" data-fancybox="images1">
+								<img class="gallery__figure-img" src="img/마네_철도에서.jpg" alt="Some image">
+							</a>
+							<figcaption class="gallery__figure-caption">철도에서 <br>The Railway _1873</figcaption>
+						</figure>
+						<figure class="gallery__figure">
+							<a href="img/마네_튈르리에서의_음악회.jpg" data-fancybox="images1">
+								<img class="gallery__figure-img" src="img/마네_튈르리에서의_음악회.jpg" alt="Some image">
+							</a>
+							<figcaption class="gallery__figure-caption">튈르리에서의 음악회 <br>Music in the Tuileries Gardens _1862</figcaption>
+						</figure>
+						<figure class="gallery__figure">
+							<a href="img/마네_폴리베르제르술집.jpg" data-fancybox="images1">
+								<img class="gallery__figure-img" src="img/마네_폴리베르제르술집.jpg" alt="Some image">
+							</a>	
+							<figcaption class="gallery__figure-caption">폴리 베르제르 술집<br>A Bar at the Folies-Bergère _1882</figcaption>
+						</figure>
+						<figure class="gallery__figure">
+							<a href="img/마네_피리부는_소년.jpg" data-fancybox="images1">
+								<img class="gallery__figure-img" src="img/마네_피리부는_소년.jpg" alt="Some image">
+							</a>
+							<figcaption class="gallery__figure-caption">피리부는 소년<br>The Fife Player _1866</figcaption>
+						</figure>
+					</div>
+				</div><!-- /content -->
+				<div class="content" id="content-3" data-bgcolor="#f5eee2">
+					<a class="content__back" href="#menu" aria-label="Back to menu">
+						<svg class="icon icon--arrow"><use xlink:href="#icon-arrow"></use></svg>
+					</a>
+					<h2 class="content__title"><span>Auguste Renoir</span></h2>
+					<p class="content__intro"><span>Nothing short of a miracle. What a surprise to your millenial birthday.</span></p>
+					<span class="content__date"><span>1841.02.25 - 1919.12.03</span></span>
+					<div class="gallery">
+						<figure class="gallery__figure">
+							<a href="img/르누아르_두자매.jpg" data-fancybox="images2">
+								<img class="gallery__figure-img" src="img/르누아르_두자매.jpg" alt="Some image">
+							</a>
+							<figcaption class="gallery__figure-caption">두 자매 <br>Two Sisters _1881</figcaption>
+						</figure>
+						<figure class="gallery__figure">
+							<a href="img/르누아르_뱃놀이일행의오찬.jpg" data-fancybox="images2">
+								<img class="gallery__figure-img" src="img/르누아르_뱃놀이일행의오찬.jpg" alt="Some image">
+							</a>
+							<figcaption class="gallery__figure-caption">뱃놀이 일행의 오찬<br>The Luncheon of the Boating Party _1881</figcaption>
+						</figure>
+						<figure class="gallery__figure">
+							<a href="img/르누아르_책읽는소녀.jpg" data-fancybox="images2">
+								<img class="gallery__figure-img" src="img/르누아르_책읽는소녀.jpg" alt="Some image">
+							</a>
+							<figcaption class="gallery__figure-caption">책 읽는 소녀<br>La Lecture _19C~</figcaption>
+						</figure>
+						<figure class="gallery__figure">
+							<a href="img/르누아르_피아노_앞에_앉은_소녀들.jpg" data-fancybox="images2">
+								<img class="gallery__figure-img" src="img/르누아르_피아노_앞에_앉은_소녀들.jpg" alt="Some image">
+							</a>
+							<figcaption class="gallery__figure-caption">피아노 앞에 앉은 소녀들<br>Young Girls at the Piano _1892</figcaption>
+						</figure>
+						<figure class="gallery__figure">
+							<a href="img/르누아르_해변에서.jpg" data-fancybox="images2">
+								<img class="gallery__figure-img" src="img/르누아르_해변에서.jpg" alt="Some image">
+							</a>
+							<figcaption class="gallery__figure-caption">해변에서<br>By Seashore _1883</figcaption>
+						</figure>
+						<figure class="gallery__figure">
+							<a href="img/르누아르_도시의_무도회.jpg" data-fancybox="images2">
+								<img class="gallery__figure-img" src="img/르누아르_도시의_무도회.jpg" alt="Some image">
+							</a>
+							<figcaption class="gallery__figure-caption">도시의 무도회</figcaption>
+						</figure>
+						<figure class="gallery__figure">
+							<a href="img/르누아르_몰랭_드_라_갈레트의_무도회.jpg" data-fancybox="images2">
+								<img class="gallery__figure-img" src="img/르누아르_몰랭_드_라_갈레트의_무도회.jpg" alt="Some image">
+							</a>
+							<figcaption class="gallery__figure-caption">몰랭 드 라 갈레트의 무도회<br>Dance in the City _1883</figcaption>
+						</figure>
+						<figure class="gallery__figure">
+							<a href="img/르누아르_그네.jpg" data-fancybox="images2">
+								<img class="gallery__figure-img" src="img/르누아르_그네.jpg" alt="Some image">
+							</a>
+							<figcaption class="gallery__figure-caption">그네<br>The Swing _1876</figcaption>
+						</figure>
+						<figure class="gallery__figure">
+							<a href="img/르누아르_작은_배.jpg" data-fancybox="images2">
+								<img class="gallery__figure-img" src="img/르누아르_작은_배.jpg" alt="Some image">
+							</a>
+							<figcaption class="gallery__figure-caption">작은 배<br>The skiff _1875</figcaption>
+						</figure>
+					</div>
+				</div><!-- /content -->
+				<div class="content" id="content-4" data-bgcolor="#f5eee2">
+					<a class="content__back" href="#menu" aria-label="Back to menu">
+						<svg class="icon icon--arrow"><use xlink:href="#icon-arrow"></use></svg>
+					</a>
+					<h2 class="content__title"><span>Edgar De Gas</span></h2>
+					<p class="content__intro"><span>Pointless you say? Of course, that's the whole idea behind reckless yogurt.</span></p>
+					<span class="content__date"><span>1834.07.19 - 1917.09.27</span></span>
+					<div class="gallery">
+						<figure class="gallery__figure">
+							<a href="img/드가_꽃다발을든무용수.jpg" data-fancybox="images3">
+								<img class="gallery__figure-img" src="img/드가_꽃다발을든무용수.jpg" alt="Some image">
+							</a>
+							<figcaption class="gallery__figure-caption">꽃다발을 든 무용수<br>Dancer with a Bouquet Bowing _1877</figcaption>
+						</figure>
+						<figure class="gallery__figure">
+							<a href="img/드가_발레수업.jpg" data-fancybox="images3">
+								<img class="gallery__figure-img" src="img/드가_발레수업.jpg" alt="Some image">
+							</a>
+							<figcaption class="gallery__figure-caption">발레수업<br>The Ballet Class _1874</figcaption>
+						</figure>
+						<figure class="gallery__figure">
+							<a href="img/드가_압생트_한_잔.jpg" data-fancybox="images3">
+								<img class="gallery__figure-img" src="img/드가_압생트_한_잔.jpg" alt="Some image">
+							</a>
+							<figcaption class="gallery__figure-caption">압생트 한 잔<br>L' Absinthe _1876</figcaption>
+						</figure>
+						<figure class="gallery__figure">
+							<a href="img/드가_장미빛_발레복의_무희들.jpg" data-fancybox="images3">
+								<img class="gallery__figure-img" src="img/드가_장미빛_발레복의_무희들.jpg" alt="Some image">
+							</a>
+							<figcaption class="gallery__figure-caption">장미빛 발레복의 무희들<br>Dancers in pink _1884</figcaption>
+						</figure>
+						<figure class="gallery__figure">
+							<a href="img/드가_푸른_옷을_입은_발레니나들.jpg" data-fancybox="images3">
+								<img class="gallery__figure-img" src="img/드가_푸른_옷을_입은_발레니나들.jpg" alt="Some image">
+							</a>
+							<figcaption class="gallery__figure-caption">푸른 옷을 입은 발레리나들<br>Dancers in ble _1895</figcaption>
+						</figure>
+						<figure class="gallery__figure">
+							<a href="img/드가_꽃병_옆에_앉아있는_여인.jpg" data-fancybox="images3">
+								<img class="gallery__figure-img" src="img/드가_꽃병_옆에_앉아있는_여인.jpg" alt="Some image">
+							</a>
+							<figcaption class="gallery__figure-caption">꽃병 옆에 앉아있는 여인<br>A Woman Seated beside a Vase of Flowers _1865</figcaption>
+						</figure>
+						<figure class="gallery__figure">
+							<a href="img/드가_목욕_후에_몸을_말리는_여인.jpg" data-fancybox="images3">
+								<img class="gallery__figure-img" src="img/드가_목욕_후에_몸을_말리는_여인.jpg" alt="Some image">
+							</a>
+							<figcaption class="gallery__figure-caption">목욕 후에 몸을 말리는 여인<br>Woman Drying Herself _1892</figcaption>
+						</figure>
+						<figure class="gallery__figure">
+							<a href="img/드가_무대위의_무희.jpg" data-fancybox="images3">
+								<img class="gallery__figure-img" src="img/드가_무대위의_무희.jpg" alt="Some image">
+							</a>
+							<figcaption class="gallery__figure-caption">무대위의 무희<br>Two Dancers on a stage _1874</figcaption>
+						</figure>
+						<figure class="gallery__figure">
+							<a href="img/드가_발레_대기실.jpg" data-fancybox="images3">
+								<img class="gallery__figure-img" src="img/드가_발레_대기실.jpg" alt="Some image">
+							</a>
+							<figcaption class="gallery__figure-caption">발레 대기실<br>Foyer de la danse _1872</figcaption>
+						</figure>
+					</div>
+				</div><!-- /content -->
+				<div class="content" id="content-5" data-bgcolor="#f5eee2">
+					<a class="content__back" href="#menu" aria-label="Back to menu">
+						<svg class="icon icon--arrow"><use xlink:href="#icon-arrow"></use></svg>
+					</a>
+					<h2 class="content__title"><span>Camille Pissarro</span></h2>
+					<p class="content__intro"><span>When you say Pasha, I get excited. But wait for winter, it will blow your mind!</span></p>
+					<span class="content__date"><span>1830.07.10 - 1903.11.13</span></span>
+					<div class="gallery">
+						<figure class="gallery__figure">
+							<a href="img/피사로_몽마르트거리의봄날아침.jpg" data-fancybox="images4">
+								<img class="gallery__figure-img" src="img/피사로_몽마르트거리의봄날아침.jpg" alt="Some image">
+							</a>
+							<figcaption class="gallery__figure-caption">몽마르트 거리의 봄날 아침<br>Boulevard Montmartre, Spring _1897</figcaption>
+						</figure>
+						<figure class="gallery__figure">
+							<a href="img/피사로_몽마르트대로밤풍경.jpg" data-fancybox="images4">
+								<img class="gallery__figure-img" src="img/피사로_몽마르트대로밤풍경.jpg" alt="Some image">
+							</a>
+							<figcaption class="gallery__figure-caption">몽마르트 대로, 밤 풍경<br>Boulevard Montmartre, Night _1897</figcaption>
+						</figure>
+						<figure class="gallery__figure">
+							<a href="img/피사로_몽마르트대로,겨울아침.jpg" data-fancybox="images4">
+								<img class="gallery__figure-img" src="img/피사로_몽마르트대로,겨울아침.jpg" alt="Some image">
+							</a>
+							<figcaption class="gallery__figure-caption">몽마르트 대로, 겨울 아침<br>The Boulevard Montmartre on a Winter Morning _1897</figcaption>
+						</figure>
+						<figure class="gallery__figure">
+							<a href="img/피사로_비_오는_날_루앙의_보이엘디유_다리.jpg" data-fancybox="images4">
+								<img class="gallery__figure-img" src="img/피사로_비_오는_날_루앙의_보이엘디유_다리.jpg" alt="Some image">
+							</a>	
+							<figcaption class="gallery__figure-caption">비 오는 날 루앙의 보디엘디유 다리<br>Pont Boieldieu in Rouen, Rainy Weather _1896</figcaption>
+						</figure>
+						<figure class="gallery__figure">
+							<a href="img/피사로_사과와_물병이_있는_정물.jpg" data-fancybox="images4">
+								<img class="gallery__figure-img" src="img/피사로_사과와_물병이_있는_정물.jpg" alt="Some image">
+							</a>
+							<figcaption class="gallery__figure-caption">사과와 물병이 있는 정물<br>Still Life with Apples and Pitcher _1872</figcaption>
+						</figure>
+						<figure class="gallery__figure">
+							<a href="img/피사로_에라니에서_건초_수확.jpg" data-fancybox="images4">
+								<img class="gallery__figure-img" src="img/피사로_에라니에서_건초_수확.jpg" alt="Some image">
+							</a>
+							<figcaption class="gallery__figure-caption">에라니에서 건초 수확<br>Hay Harvest at Éragny _1901</figcaption>
+						</figure>
+						<figure class="gallery__figure">
+							<a href="img/피사로_퐁네프.jpg" data-fancybox="images4">
+								<img class="gallery__figure-img" src="img/피사로_퐁네프.jpg" alt="Some image">
+							</a>
+							<figcaption class="gallery__figure-caption">퐁네프<br>Pont Neuf _19C~</figcaption>
+						</figure>
+						<figure class="gallery__figure">
+							<a href="img/피사로_가을,포플러,에라그니.jpg" data-fancybox="images4">
+								<img class="gallery__figure-img" src="img/피사로_가을,포플러,에라그니.jpg" alt="Some image">
+							</a>
+							<figcaption class="gallery__figure-caption">가을, 포플러, 에라그니<br>Automne, Peupliers, Eragny _1894</figcaption>
+						</figure>
+						<figure class="gallery__figure">
+							<a href="img/피사로_퐁투아즈의_외딴집.jpg" data-fancybox="images4">
+								<img class="gallery__figure-img" src="img/피사로_퐁투아즈의_외딴집.jpg" alt="Some image">
+							</a>
+							<figcaption class="gallery__figure-caption">퐁투아즈의 외딴집<br>
+								A secluded house in Pontoise _1867</figcaption>
+						</figure>
+					</div>
+				</div><!-- /content -->
+				<div class="content" id="content-6" data-bgcolor="#f5eee2">
+					<a class="content__back" href="#menu" aria-label="Back to menu">
+						<svg class="icon icon--arrow"><use xlink:href="#icon-arrow"></use></svg>
+					</a>
+					<h2 class="content__title"><span>Alfred Sisley</span></h2>
+					<p class="content__intro"><span>When you say Pasha, I get excited. But wait for winter, it will blow your mind!</span></p>
+					<span class="content__date"><span>1839.10.30 - 1899.01.29</span></span>
+					<div class="gallery">
+						<figure class="gallery__figure">
+							<a href="img/시슬레_빌뇌브_라_가렌느의_다리.jpg" data-fancybox="images5">
+								<img class="gallery__figure-img" src="img/시슬레_빌뇌브_라_가렌느의_다리.jpg" alt="Some image">
+							</a>
+							<figcaption class="gallery__figure-caption">빌뇌브 라 가렌느의 다리<br>The Bridge at Villeneuve-la-Garenne _1872</figcaption>
+						</figure>
+						<figure class="gallery__figure">
+							<a href="img/시슬리_눈_내린_루브시엔느.jpg" data-fancybox="images5">
+								<img class="gallery__figure-img" src="img/시슬리_눈_내린_루브시엔느.jpg" alt="Some image">
+							</a>
+							<figcaption class="gallery__figure-caption">눈 내린 루브시엔느<br>Rubcienne in the snow _1876</figcaption>
+						</figure>
+						<figure class="gallery__figure">
+							<a href="img/시슬리_홍수난_마를리_항의_작은_배.jpg" data-fancybox="images5">
+								<img class="gallery__figure-img" src="img/시슬리_홍수난_마를리_항의_작은_배.jpg" alt="Some image">
+							</a>
+							<figcaption class="gallery__figure-caption">홍수난 마를리 항의 작은 배<br>Flood at Port-Marly _1876</figcaption>
+						</figure>
+						<figure class="gallery__figure">
+							<a href="img/시슬리_목초지.jpg" data-fancybox="images5">
+								<img class="gallery__figure-img" src="img/시슬리_목초지.jpg" alt="Some image">
+							</a>
+							<figcaption class="gallery__figure-caption">목초지<br>The Meadow _1875</figcaption>
+						</figure>
+						<figure class="gallery__figure">
+							<a href="img/시슬리_봄의_작은_초원.jpg" data-fancybox="images5">
+								<img class="gallery__figure-img" src="img/시슬리_봄의_작은_초원.jpg" alt="Some image">
+							</a>
+							<figcaption class="gallery__figure-caption">봄의 작은 초원<br>The Small Meadows in Spring _1881</figcaption>
+						</figure>
+						<figure class="gallery__figure">
+							<a href="img/시슬리_빌뇌브_라_가렌,세느_강의_마을.jpg" data-fancybox="images5">
+								<img class="gallery__figure-img" src="img/시슬리_빌뇌브_라_가렌,세느_강의_마을.jpg" alt="Some image">
+							</a>
+							<figcaption class="gallery__figure-caption">빌뇌브 라 가렌, 세느 강의 마을<br>Villeneuve-la-Garenne _1872</figcaption>
+						</figure>
+						<figure class="gallery__figure">
+							<a href="img/시슬리_생_마르탱_운하_전경.jpg" data-fancybox="images5">
+								<img class="gallery__figure-img" src="img/시슬리_생_마르탱_운하_전경.jpg" alt="Some image">
+							</a>	
+							<figcaption class="gallery__figure-caption">생 마르탱 운하 전경<br>View of the Canal Saint-Martin _1870</figcaption>
+						</figure>
+						<figure class="gallery__figure">
+							<a href="img/시슬리_루브시엔느의_마쉰_길.jpg" data-fancybox="images5">
+								<img class="gallery__figure-img" src="img/시슬리_루브시엔느의_마쉰_길.jpg" alt="Some image">
+							</a>
+							<figcaption class="gallery__figure-caption">루브시엔느의 마쉰 길<br>Chemin de la Machine, Louveciennes _1873</figcaption>
+						</figure>
+						<figure class="gallery__figure">
+							<a href="img/시슬리_안개,부아쟁.jpg" data-fancybox="images5">
+								<img class="gallery__figure-img" src="img/시슬리_안개,부아쟁.jpg" alt="Some image">
+							</a>
+							<figcaption class="gallery__figure-caption">안개, 부아쟁<br>Fog, Voisins _1874</figcaption>
+						</figure>
+					</div>
+				</div><!-- /content -->
+			</section><!-- /page -->
+		</main>
+		<!-- <svg class="cursor" width="30" height="30" viewBox="0 0 30 30">
+			<circle class="cursor__inner" cx="15" cy="15" r="7.5"></circle>
+		</svg> -->
+		<!-- <script src="https://tympanus.net/codrops/adpacks/cda.js"></script> -->
+		<script src="MenuFullGrid/js.00a46daa.js"></script>
+	</body>
+</html>

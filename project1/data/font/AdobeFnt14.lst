@@ -1,0 +1,55 @@
+%!Adobe-FontList 1.14
+%Locale:0x412
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:F:\pro1_2\data\Font\Vidaloka\OFL.txt
+FileModTime:1313506800
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Vidaloka-Regular
+FamilyName:Vidaloka 
+StyleName:Regular
+FullName:Vidaloka 
+MenuName:Vidaloka 
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:F:\pro1_2\data\Font\Vidaloka\Vidaloka-Regular.ttf
+DataFormat:sfntData
+FileLength:82076
+FileModTime:1313506800
+WeightClass:400
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:F:\pro1_2\data\Font\Slabo_27px\OFL.txt
+FileModTime:1401375600
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Slabo27px-Regular
+FamilyName:Slabo 27px
+StyleName:Regular
+FullName:Slabo 27px
+MenuName:Slabo 27px
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:F:\pro1_2\data\Font\Slabo_27px\Slabo27px-Regular.ttf
+DataFormat:sfntData
+FileLength:54216
+FileModTime:1401375600
+WeightClass:400
+WidthClass:5
+AngleClass:0
+%EndFont
+

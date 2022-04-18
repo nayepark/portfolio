@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>IM.</title>
+		<meta name="description" content="A triple view diagonal slideshow with content preview." />
+		<meta name="keywords" content="" />
+		<meta name="author" content="Codrops" />
+		<!-- <link rel="shortcut icon" href="favicon.ico"> -->
+		<link rel="stylesheet" type="text/css" href="DiagonalSlideshow/css/base.css" />
+		<link rel="stylesheet" href="template2.css">
+		<!-- <link rel="stylesheet" href="artist.css"> -->
+		<link rel="shortcut icon" href="img/favicon.ico">
+
+		<script>
+		document.documentElement.className = "js";
+		var supportsCssVars = function() { var e, t = document.createElement("style"); return t.innerHTML = "root: { --tmp-var: bold; }", document.head.appendChild(t), e = !!(window.CSS && window.CSS.supports && window.CSS.supports("font-weight", "var(--tmp-var)")), t.parentNode.removeChild(t), e };
+		supportsCssVars() || alert("Please view this demo in a modern browser that supports CSS Variables.");
+		</script>
+    	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+		<script src="artist.js"></script>
+	</head>
+	<body class="loading">
+		<header>
+			<div class="logo"><a href="intro.html">IM.</a></div>
+			<div class="nav-but-wrap">
+				<div class="menu-icon hover-target">
+					<span class="menu-icon__line menu-icon__line-left"></span>
+					<span class="menu-icon__line"></span>
+					<span class="menu-icon__line menu-icon__line-right"></span>
+				</div>					
+			</div>	
+		</header>
+		<section>
+			<div class="nav2">
+				<div class="nav__content">
+					<div class="hero-center-section">
+						<div class="left-text">main</div>
+						<div class="container">
+							<div class="row justify-content-center">
+								<div class="col-md-8">
+									<div class="blb">
+										<div class="img-wrap">
+											<img src="img/드가_발레수업.jpg" alt="">
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="hero-center-section">
+						<div class="left-text">impressionism</div>
+						<div class="container">
+							<div class="row justify-content-center">
+								<div class="col-md-8">
+									<div class="blb">
+										<div class="img-wrap">
+											<img src="img/르누아르_책읽는소녀.jpg" alt="">
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="hero-center-section">
+						<div class="left-text">artist</div>
+						<div class="container">
+							<div class="row justify-content-center">
+								<div class="col-md-8">
+									<div class="blb">
+										<div class="img-wrap">
+											<img src="img/마네_스튜디오 보트에서 작업하는 모네.jpg" alt="">
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="hero-center-section">
+						<div class="left-text">art work</div>
+						<div class="container">
+							<div class="row justify-content-center">
+								<div class="col-md-8">
+									<div class="blb">
+										<div class="img-wrap">
+											<img src="img/모네_해돋이.jpg" alt="">
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="hero-center-section">
+						<div class="left-text">exhibition</div>
+						<div class="container">
+							<div class="row justify-content-center">
+								<div class="col-md-8">
+									<div class="blb">
+										<div class="img-wrap">
+											<img src="img/피사로_몽마르트대로밤풍경.jpg" alt="">
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="hero-center-section">
+						<div class="left-text">qna</div>
+						<div class="container">
+							<div class="row justify-content-center">
+								<div class="col-md-8">
+									<div class="blb">
+										<div class="img-wrap">
+											<img src="img/시슬레_빌뇌브_라_가렌느의_다리.jpg" alt="">
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+						
+						
+					<div class="section padding-top-bottom over-hide z-bigger">
+						<ul class="slide-buttons">
+							<li class="">
+								<a href="main.html" class="hover-target" data-hover="main">main</a>
+							</li>
+							<li class="">
+								<a href="impressionism.html" class="hover-target" class="hover-target" data-hover="impressionism">impressionism</a>
+							</li>
+							<li class="">
+								<a href="artist.html" class="hover-target" data-hover="artist">artist</a>
+							</li>
+							<li class="">
+								<a href="artwork.html" class="hover-target" data-hover="art work">art work</a>
+							</li>
+							<li class="">
+								<a href="exhibition.html" class="hover-target" data-hover="exhibition">exhibition</a>
+							</li>
+							<li class="">
+								<a href="qna.html" class="hover-target" data-hover="qna">qna</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+				
+			<!-- Page cursor
+			================================================== -->
+			<div class="cur">
+				<div class='cursor' id="cursor"></div>
+				<div class='cursor2' id="cursor2"></div>
+				<div class='cursor3' id="cursor3"></div> 
+			</div>
+		</section>
+	
+		<svg class="hidden">
+			<symbol id="icon-arrow" viewBox="0 0 24 24">
+				<title>arrow</title>
+				<polygon points="6.3,12.8 20.9,12.8 20.9,11.2 6.3,11.2 10.2,7.2 9,6 3.1,12 9,18 10.2,16.8 " />
+			</symbol>
+			<symbol id="icon-drop" viewBox="0 0 24 24">
+				<title>drop</title>
+				<path d="M12,21c-3.6,0-6.6-3-6.6-6.6C5.4,11,10.8,4,11.4,3.2C11.6,3.1,11.8,3,12,3s0.4,0.1,0.6,0.3c0.6,0.8,6.1,7.8,6.1,11.2C18.6,18.1,15.6,21,12,21zM12,4.8c-1.8,2.4-5.2,7.4-5.2,9.6c0,2.9,2.3,5.2,5.2,5.2s5.2-2.3,5.2-5.2C17.2,12.2,13.8,7.3,12,4.8z" />
+				<path d="M12,18.2c-0.4,0-0.7-0.3-0.7-0.7s0.3-0.7,0.7-0.7c1.3,0,2.4-1.1,2.4-2.4c0-0.4,0.3-0.7,0.7-0.7c0.4,0,0.7,0.3,0.7,0.7C15.8,16.5,14.1,18.2,12,18.2z" />
+			</symbol>
+			<symbol id="icon-longarrow" viewBox="0 0 54 24">
+				<title>longarrow</title>
+				<path d="M.42 11.158L12.38.256c.333-.27.696-.322 1.09-.155.395.166.593.467.593.903v6.977h38.87c.29 0 .53.093.716.28.187.187.28.426.28.716v5.98c0 .29-.093.53-.28.716a.971.971 0 0 1-.716.28h-38.87v6.977c0 .416-.199.717-.592.903-.395.167-.759.104-1.09-.186L.42 12.62a1.018 1.018 0 0 1 0-1.462z" />
+			</symbol>
+			<symbol id="icon-navarrow" viewBox="0 0 408 408">
+				<title>navarrow</title>
+				<polygon fill="#fff" fill-rule="nonzero" points="204 0 168.3 35.7 311.1 178.5 0 178.5 0 229.5 311.1 229.5 168.3 372.3 204 408 408 204"></polygon>
+			</symbol>
+		</svg>
+		<main>
+			<div class="slideshow">
+				<div class="slideshow__deco"></div>
+				<div class="slide">
+					<div class="slide__img-wrap">
+						<div class="slide__img" style="background-image: url(img/모네_자화상.jpg);"></div>
+					</div>
+					<div class="slide__side">
+						Impression, Sunrise</div>
+					<div class="slide__title-wrap">
+						<span class="slide__number">1</span>
+						<h3 class="slide__title">Claude Monet</h3>
+						<h4 class="slide__subtitle">클로드 모네</h4>
+					</div>
+				</div>
+				<div class="slide">
+					<div class="slide__img-wrap">
+						<div class="slide__img" style="background-image: url(img/마네_자화상.jpg);"></div>
+					</div>
+					<div class="slide__side">Le Déjeuner sur l'herbe</div>
+					<div class="slide__title-wrap">
+						<span class="slide__number">2</span>
+						<h3 class="slide__title">Edouard Manet</h3>
+						<h4 class="slide__subtitle">에두아르 마네</h4>
+					</div>
+				</div>
+				<div class="slide">
+					<div class="slide__img-wrap">
+						<div class="slide__img" style="background-image: url(img/르누아르_자화상.jpg);"></div>
+					</div>
+					<div class="slide__side">Two Sisters</div>
+					<div class="slide__title-wrap">
+						<span class="slide__number">3</span>
+						<h3 class="slide__title">Auguste Renoir</h3>
+						<h4 class="slide__subtitle">오귀스트 르누아르</h4>
+					</div>
+				</div>
+				<div class="slide">
+					<div class="slide__img-wrap">
+						<div class="slide__img" style="background-image: url(img/드가_자화상.jpg);"></div>
+					</div>
+					<div class="slide__side">La Classe de danse</div>
+					<div class="slide__title-wrap">
+						<span class="slide__number">4</span>
+						<h3 class="slide__title">Edgar De Gas</h3>
+						<h4 class="slide__subtitle">에드가 드가</h4>
+					</div>
+				</div>
+				<div class="slide">
+					<div class="slide__img-wrap">
+						<div class="slide__img" style="background-image: url(img/피사로_자화상.jpg);"></div>
+					</div>
+					<div class="slide__side">Boulevard Montmartre</div>
+					<div class="slide__title-wrap">
+						<span class="slide__number">5</span>
+						<h3 class="slide__title">Camille Pissarro</h3>
+						<h4 class="slide__subtitle">카미유 피사로</h4>
+					</div>
+				</div>
+				<div class="slide">
+					<div class="slide__img-wrap">
+						<div class="slide__img" style="background-image: url(img/시슬리_자화상.jpg);"></div>
+					</div>
+					<div class="slide__side">Hauts de Seine</div>
+					<div class="slide__title-wrap">
+						<span class="slide__number">6</span>
+						<h3 class="slide__title">Alfred Sisley</h3>
+						<h4 class="slide__subtitle">알프레드 시슬레</h4>
+					</div>
+				</div>
+				<button class="nav nav--prev">
+					<svg class="icon icon--navarrow-prev">
+						<use xlink:href="#icon-navarrow"></use>
+					</svg>
+				</button>
+				<button class="nav nav--next">
+					<svg class="icon icon--navarrow-next">
+						<use xlink:href="#icon-navarrow"></use>
+					</svg>
+				</button>
+			</div>
+			<div class="content">
+				<div class="content__item">
+					<span class="content__number">1</span>
+					<h3 class="content__title">Claude Monet</h3>
+					<h4 class="content__subtitle">'인상주의'라는 말이 생겨나도록 한 인상파 양식의 창시자 중 한사람.</h4>
+					<div class="content__text">모네는 1874년 첫 번째 그룹전을 열어 &lt;인상, 일출&gt;을 출품했다. 이 전시를 관람한 비평가 루이 르로이는 모네의 작품에 대한 조롱의 의미를 담아 처음으로 '인상주의'라는 말을 사용했다.
+						그리고 인상파란 이름이 모네를 중심으로 한 화가집단에 붙여졌다. 모네는 이후 1886년까지 모두 8회 동안 이어진 인상파 전시에서 5회에 걸쳐 많은 작품을 출품하여 대표적 지도자로서의 위치를 굳혔다.
+						그는 1890년 이후부터 하나의 주제로 여러 장의 그림을 그리는 연작을 많이 제작하였는데 폴 세잔은 빛의 변화에 민감하게 반응하는 모네의 능력에 감탄하며 '모네는 신의 눈을 가진 유일한 인간'이라는 유명한 말을 남기기도 했다. 모네의 눈에는
+					매 시간, 매 분, 매 초마다 빛의 변화가 느껴졌기 때문에 태양이 뜨고 질 때까지 캔버스를 바꿔가며 하나의 대상을 그렸다.
+					</div>
+				</div>
+				<div class="content__item">
+					<span class="content__number">2</span>
+					<h3 class="content__title">Edouard Manet</h3>
+					<h4 class="content__subtitle">인상주의의 아버지라는 별칭을 가지고 있는 근대회화의 선구자 중 한사람.</h4>
+					<div class="content__text">1859년부터 살롱에 출품, 낙선되는 일이 많았으나 고티에나 보들레르로부터 주목을 받게 된다. 1863년의 낙선자전에 <풀밭 위의 점심식사>를 1865년의 살롱에 <올랭피아>를 출품해서 세상의 비난을 받지만 색면의 밝음을 강조한 혁신적인 표현은 피사로, 모네, 시슬레 등 젊은 화가들을 끌어들이고, 거기서부터 인상파(인상주의)운동이 시작되었다. 그러나, 마네는 직접 참가하지는 않고 살롱에 계속 출품했다.
+						어디까지나 눈에 보이는 현실을 그리면서 평면적인 화면구성을 많이 썼고, 때로는 생략적인 묘사법을 살리어 밝고 신선한 색채로 화면을 통일해서 시각의 자율성과 순수성을 추구, 근대회화의 가장 중요한 선구자의 한사람이 되었다.						
+						</div>
+				</div>
+				<div class="content__item">
+					<span class="content__number">3</span>
+					<h3 class="content__title">Auguste Renoir</h3>
+					<h4 class="content__subtitle">인상주의 화가들이 외광회화로 유명해지는 데 일조한 화가.</h4>
+					<div class="content__text">피에르 오귀스트 르누아르는 1867년에 그 당시 애인을 그린 초상화 <양산을 든 리즈>를 살롱전에 출품하여 통과되었다. 이 작품은 작업실이 아닌 야외에서 그린 초상화인데, 이로인해 르누아르와 인상주의 화가들은 야외에서 직접 보고 그리는 풍경화인 '외광회화'로 유명해졌다.
+						르누아르가 인상주의에서 차지하는 비중이 상당했음에도 그는 여덟 차례 열렸던 인상주의 화가들의 전시회 중 겨우 네 번을 참가했다. 말년에는 초기에 애착을 가졌던 18세기의 고전주의적인 미술에 다시 흥미를 느끼게 되었다. 르누아르의 양식에서 인상주의적인 요소는 줄어들었고, 고전 미술의 작품에서 배운 것을 인상주의 기법과 혼합하여 르누아르의 작품은 더 큰 목표와 견고함을 얻게 되었다.
+						</div>
+				</div>
+				<div class="content__item">
+					<span class="content__number">4</span>
+					<h3 class="content__title">Edgar De Gas</h3>
+					<h4 class="content__subtitle">'여러 겹의 현실을 관찰하는 눈'을 가진 화가. </h4>
+					<div class="content__text">19세기 인상파의 대표적 화가로 꼽히는 드가는
+						1874년부터 1886년까지 총 8회 개최된 인사파 전시회 중 7회나 참여했다. 그러나 그 자신이 '인상파'로 불리는 것을 싫어하기도 했지만 그의 예술세계는 인상파로 규정짓기 어려울 만큼 스펙트럼이 매우 넓은 것이 특징이다. 그는 빛을 찾아 야외로 나가는 등
+						풍경과 색채에 천착하는 인상파 화가들과 달리 실내에서 그림을 그렸다. 경마장이나 카페 등 야외에서 관찰한 것조차도 화폭에 새롭게 구성했다. "예술은 거짓된 수단을 통해 진실인 듯한 느낌을 준다"는게 그의 관점이었다. 19세기 파리 사람들의 모습을 담은 그의 그림은 사실적이면서도
+						비대칭적인 구도와 독특한 배치를 통해 사람들의 소외와 고독이라는 주제의식을 잘 보여준다.
+					</div>
+				</div>
+				<div class="content__item">
+					<span class="content__number">5</span>
+					<h3 class="content__title">Camille Pissarro</h3>
+					<h4 class="content__subtitle">인상주의 창시자로 여겨지는 화가.</h4>
+					<div class="content__text">카미유 피사로는 수많은 젊은 화가들에게 인상주의에 대해 조언을 해주었기 때문에, 그는 종종 인상주의의 창시자로 여겨졌다. 피사로의 초기 풍경화들은 작가인 에밀 졸라와 다른 평론가들로부터 격찬을 받았으나, 대중으로부터는 거의 인정을 받지 못했다.
+						그럼에도 불구하고 그의 작품은 1860년대에 파리 살롱전에 전시되었고, 1863년에는 여러 미술가들과 함께 '낙선전'에 참가했다. 1860년대 후반부터, 피사로는 인상주의 화가들 사이에서 중요한 인물이 되었다. 또 그는 폴 세잔과 폴 고갱에게 큰 영향을 미쳤는데,
+						이 두 화가는 활동 말기에 피사로가 그들의 '스승'이었다고 고백했다.
+					</div>
+				</div>
+				<div class="content__item">
+					<span class="content__number">6</span>
+					<h3 class="content__title">Alfred Sisley</h3>
+					<h4 class="content__subtitle">인상파 중에서도 특출하게 순수한 풍경화가.</h4>
+					<div class="content__text">알프레도 시슬레는 대표적인 인상파화가로 모네, 르누아르, 바지유와 함께 회화를 공부했다. 1866년 살롱에 첫 입선하고, 1870년엔 초기의 화풍을 버리고 자연을 외광 아래서 포착하는 밝은 화풍을 확립시켰다. 1874년 이후는 인상파그룹전 등을 통해 작품을 발표하였다. 그는 인상파 중에서도 특출하게 순수한 풍경화가로서 일 드 프랑스지방을 중심으로 하는 자연을
+						대상으로 물과 숲의 반짝임을 묘사한 많은 수작을 남겼다.
+					</div>
+				</div>
+				<button class="content__close">
+					<svg class="icon icon--longarrow">
+						<use xlink:href="#icon-longarrow"></use>
+					</svg>
+				</button>
+			</div>
+		</main>
+		<script src="DiagonalSlideshow/js/imagesloaded.pkgd.min.js"></script>
+		<script src="DiagonalSlideshow/js/charming.min.js"></script>
+		<script src="DiagonalSlideshow/js/TweenMax.min.js"></script>
+		<script src="DiagonalSlideshow/js/demo.js"></script>
+	</body>
+</html>

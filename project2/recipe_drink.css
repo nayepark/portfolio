@@ -1,0 +1,248 @@
+@charset "utf-8";
+
+
+
+.pop {background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100vh;
+    display: block;
+    position: fixed;
+    top: 0px;
+    z-index: 99;
+    }
+
+section {width: 100%;
+    padding-bottom: 100px;}
+section>.art1 {background: url(img/nguyen-kiet-BR3FSiaeC94-unsplash2.jpg) no-repeat center center;
+    height: 500px;
+    position: relative;}
+
+section>.art1>.tt {color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+    }
+section>.art1>.tt>.tit {font-size: 2.5em;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: 700;}
+section>.art1>.tt>.bor_b {
+    border-top: 5px solid #fff;
+    width: 100px;
+    margin: 20px auto;
+}
+section>.art1>.tt>p {font-size: 1.2em;
+    font-family: 'Nanum Gothic', sans-serif;}
+    
+section>.art2, section>.art3, section>.art4, section>.art5 {
+    width: 62.5%;
+    
+}
+section>.art2 {margin: 100px auto 50px auto;
+    display: flex;
+    position: relative;}
+section>.art2>.art_img {width: 610px;
+    position: relative;
+    padding-bottom: 30%;
+    overflow: hidden;}
+section>.art2>.art_img>img {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+section>.art2>.art_text {margin-left: 20px;}
+section .art_text>h2 {font-size: 2em;
+    color: #50a38f;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: 700;
+    margin: 0px 0px 10px 0px;}
+section .art_text>p {color: #85857d;
+    line-height: 1.8;}
+section button {background: #798e6c;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    width: 100px;
+    height: 40px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;}
+section button:hover {background: #dd7c24;}
+section .art_text>.art_click {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background: #f4f1ec;
+    border-radius: 10px;
+    padding: 20px;
+    /* display: none;*/
+    display: flex;
+    z-index: 100;
+    width: 35%;
+    box-shadow: 5px 3px 5px #4E4E4C;
+}
+section .art_text>.art_click>.x {position: absolute;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    text-align: center;}
+section .art_text>.art_click>.x>i {color: #4E4E4C;
+    line-height: 40px;}
+section>.art2>.art_text>.art_click>.click_text {}
+section .art_text>.art_click>.click_text>h2 {color: #50a38f;
+    font-size: 1.5em;
+    font-weight: 600;
+    margin-bottom: 20px;}
+section .art_text>.art_click>.click_text>h3 {color: #4E4E4C;
+    margin-bottom: 10px;}
+section .art_text>.art_click>.click_text>h3:last-of-type {margin-top: 10px;}
+section .art_text>.art_click>.click_text>p {color: #85857d;
+    font-size: 0.9em;
+    line-height: 1.8;}
+
+
+section>.art3 {width: 62.5%;
+    margin: 0px auto;
+    display: flex;
+    position: relative;}
+section>.art3>.art_img {width: 830px;
+    position: relative;
+    padding-bottom: 30%;
+    overflow: hidden;}
+section>.art3>.art_img>img {width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;}
+section>.art3>.art_text {margin-left: 20px;}
+section>.art3>.art_text>h2 {}
+section>.art3>.art_text>p {}
+section>.art3>.art_text>.art_click {}
+
+section>.art4 {width: 62.5%;
+    margin: 0px auto 50px auto;
+    display: flex;
+    position: relative;}
+section>.art4>.art_img {width: 831px;
+    position: relative;
+    padding-bottom: 30%;
+    overflow: hidden;}
+section>.art4>.art_img>img {width: 145%;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);}
+section>.art4>.art_text {margin-left: 20px;}
+
+section>.art5 {width: 62.5%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;}
+section>.art5>.art5_l {width: 32%;
+    position: relative;}
+section>.art5>.art5_l>.art_text>p {margin-bottom: 120px;
+    }
+section>.art5 .art_img { width: 100%;
+    position: relative;
+    padding-bottom: 90%;
+    overflow: hidden;}
+section>.art5 .art_img>img {   width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;}
+section>.art5>.art5_l>.art_img>img {width: 135%;
+    left: 50%;
+    transform: translateX(-50%);}
+section>.art5 .art5_text {}
+section>.art5 .art_text>h2 {margin-top: 20px;}
+section>.art5>.art5_r {width: 32%;
+    position: relative;}
+section>.art5>.art5_r>.art_img>img {
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+section>.art5>.art5_rr {width: 32%;
+    position: relative;}
+section>.art5>.art5_rr>.art_img {}
+section>.art5>.art5_rr>.art_img>img {width: 145%;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);}
+
+
+@media only screen and (max-width: 1100px) {
+    section>.art2, section>.art3, section>.art5 {width: 80%;}
+    section .art_text>.art_click {width: 50%;}
+}
+
+@media only screen and (max-width: 983px) {
+    section .art_img {padding-bottom: 40% !important;}
+    section>.art5 {display: block;}
+
+    section>.art5>.art5_l, section>.art5>.art5_r, section>.art5>.art5_rr {width: 100%;
+        display: flex;}
+
+    section>.art5>.art5_l>.art_img {width: 401px;}
+    section>.art5 .art_img {width: 830px;
+        position: relative;
+        padding-bottom: 30%;
+        overflow: hidden;}
+     section>.art5 .art_text {margin-left: 20px;}
+     section>.art5 .art_text>h2 {margin-top: 0px;}
+
+     section>.art5>.art5_l>.art_text>p {margin-bottom: 0px;}
+     section>.art5>.art5_l>.art_img>img {width: 178%;}
+     section>.art5>.art5_rr>.art_img>img {width: 175%;}
+     section>.art5>.art5_r {margin: 50px 0px;}
+     section>.art5>.art5_r>.art_img {width: 484px;}
+}
+@media only screen and (max-width: 768px) {
+    section .art_text>.art_click {width: 70%;}
+    
+}
+
+@media only screen and (max-width: 671px) {
+    section>.art2, section>.art3, section>.art5 {width: 90%;}
+    section>.art2, section>.art3,  section>.art5>.art5_l, section>.art5>.art5_r, section>.art5>.art5_rr {
+        display: block;
+    }
+    section>.art2 {margin: 100px auto 110px auto;}
+    section button {bottom: -60px;}
+    section .art_text>.art_click {width: 90%;
+        height: 80%;
+        overflow: auto;}
+    section>.art2>.art_img>img {bottom: -100px;
+       ;}
+    section .art_text>h2 {font-size: 1.6em;}
+    section>.art2>.art_img, section>.art3>.art_img, section>.art5>.art5_l>.art_img, section>.art5>.art5_r>.art_img,
+    section>.art5>.art5_rr>.art_img {width: 100%;
+        padding-bottom: 60% !important;}
+    section>.art4 {margin: 0px auto 110px auto;}
+    section>.art5>.art5_r {margin: 110px 0px;}
+    section>.art5>.art5_l>.art_img>img, section>.art5>.art5_rr>.art_img>img {width: 100%;}
+    
+
+    section .art_text {margin-left: 0px !important;
+        margin-top: 20px;}
+}
+
+@media only screen and (max-width: 450px) {
+    section button {width: 80px;
+        height: 30px;}
+    section>.art1 {height: 400px;}
+    section>.art1>.tt {width: 90%;}
+    section .art_text>.art_click {width: 100%;
+        height: 100vh;
+        overflow: auto;
+        }
+    section .art_text>.art_click>.click_text {padding: 20px;}
+    section .art_text>.art_click>.x {padding-top: 10px;}
+}

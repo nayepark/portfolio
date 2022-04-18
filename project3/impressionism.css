@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+
+@media (max-width: 767px) {
+	.content__item-title {font-size: 40px;}
+}
+
+@media screen and (max-width: 40em) {
+	.content__item-description {width: 100% !important;}
+}
+@media (max-width: 575px) {.imtit h1 {font-size: 7vw;}
+.imtit p{font-size: 20px;}}
+@media (max-width: 395px) {
+	.content__item-deco {height: 20%;}
+	.content__item-title {font-size: 35px;}
+}
