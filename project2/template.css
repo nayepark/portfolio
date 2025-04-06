@@ -65,12 +65,13 @@ header>.ic>i:hover {color: #4b9688;}
   }
 .hw>header>.gnb:after {content: ""; display: block; clear: both;} 
 .hw>header>.gnb>li {float: left;
-    width: 150px;
+    width: 33%;
     text-align: center;
     position: relative;
     height: 40px;
     
     }
+ .gnb>li:last-child {display: none;}
 .hw>header>.mognb {display: none;}
 .hw>header>.mognb>li>a.active {color: #CACACA;} 
 
